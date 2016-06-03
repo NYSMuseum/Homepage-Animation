@@ -71,10 +71,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,0,0,0.00)']
                         }
                     ],
@@ -123,8 +123,8 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid213",
-                            "border-top-right-radius",
+                            "eid211",
+                            "border-bottom-left-radius",
                             0,
                             0,
                             "linear",
@@ -156,8 +156,8 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid211",
-                            "border-bottom-left-radius",
+                            "eid213",
+                            "border-top-right-radius",
                             0,
                             0,
                             "linear",
@@ -194,7 +194,7 @@
                     ]
                 }
             },
-            "SlideSymbol1": {
+            "SlideSymbol2": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -205,47 +205,46 @@
                     dom: [
                         {
                             rect: ['0px', '0px', '1000px', '400px', 'auto', 'auto'],
-                            stroke: [0, 'rgb(255, 255, 255)', 'solid'],
+                            opacity: '0',
                             overflow: 'auto',
                             id: 'Rectangle2',
-                            opacity: '0',
+                            stroke: [0, 'rgb(255, 255, 255)', 'solid'],
                             type: 'rect',
                             fill: ['rgba(127,159,184,1.00)']
                         },
                         {
-                            rect: ['14px', '0', '621px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'stpauls',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['14px', '0', '621px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/stpauls.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['475px', '95px', '500px', '129px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'title2',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['475px', '95px', '500px', '129px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/title2.png', '0px', '0px']
                         },
                         {
-                            rect: ['663px', '317px', '300px', '60px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'nysmcredit',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['663px', '317px', '300px', '60px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/nysmcredit.png', '0px', '0px']
                         },
                         {
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle4',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            type: 'rect',
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
                             fill: ['rgba(41,47,85,0)']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1000px', '400px'],
-                            overflow: 'hidden'
+                            overflow: 'hidden',
+                            rect: [null, null, '1000px', '400px']
                         }
                     }
                 },
@@ -254,14 +253,14 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid425",
-                            "top",
-                            2208,
-                            0,
+                            "eid225",
+                            "opacity",
+                            500,
+                            675,
                             "easeOutCubic",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
+                            "${stpauls}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid233",
@@ -274,14 +273,14 @@
                             '1'
                         ],
                         [
-                            "eid225",
-                            "opacity",
-                            500,
-                            675,
+                            "eid226",
+                            "left",
+                            0,
+                            0,
                             "easeOutCubic",
-                            "${stpauls}",
-                            '0',
-                            '1'
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid229",
@@ -294,12 +293,12 @@
                             '14px'
                         ],
                         [
-                            "eid223",
+                            "eid239",
                             "opacity",
-                            0,
+                            2500,
                             500,
                             "easeOutCubic",
-                            "${Rectangle2}",
+                            "${nysmcredit}",
                             '0',
                             '1'
                         ],
@@ -314,19 +313,19 @@
                             '1000px'
                         ],
                         [
-                            "eid239",
+                            "eid223",
                             "opacity",
-                            2500,
+                            0,
                             500,
                             "easeOutCubic",
-                            "${nysmcredit}",
+                            "${Rectangle2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid226",
-                            "left",
-                            0,
+                            "eid425",
+                            "top",
+                            2208,
                             0,
                             "easeOutCubic",
                             "${Rectangle2}",
@@ -346,49 +345,49 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
                             filter: [0, 0, 1, 0.91877140410959, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'A-State-of-Change',
-                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/A-State-of-Change.jpg', '0px', '0px']
                         },
                         {
-                            transform: [[], [], ['31'], [1, 1, 1]],
                             rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
                             type: 'rect',
+                            opacity: '0.8799225101626',
                             id: 'Rectangle2',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            opacity: '0.8799225101626',
+                            transform: [[], [], ['31'], [1, 1, 1]],
                             fill: ['rgba(34,187,237,1.00)']
                         },
                         {
-                            opacity: '1',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             rect: ['32px', '-36px', '516px', '521px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 209.09139951941, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'EllipseCopy',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '1',
                             type: 'ellipse',
                             fill: ['rgba(41,47,85,1.00)']
                         },
                         {
-                            opacity: '0.56494537601626',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             rect: ['103px', '-9px', '464px', '468px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 210.05458047945, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'Ellipse',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.56494537601626',
                             type: 'ellipse',
                             fill: ['rgba(14,79,100,1.00)']
                         },
                         {
-                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
                             type: 'text',
-                            align: 'left',
+                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto'],
+                            text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
                             id: 'Text2',
                             textStyle: ['', '', '', '', 'none'],
-                            text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
-                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto']
+                            align: 'left',
+                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', '']
                         }
                     ],
                     style: {
@@ -415,7 +414,7 @@
                     ]
                 }
             },
-            "SlideSymbol2": {
+            "SlideSymbol3": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -431,18 +430,18 @@
                             fill: ['rgba(0,0,0,0)', 'images/WatermanLR.jpg', '0px', '0px']
                         },
                         {
-                            transform: [[], [], ['-41'], [1, 1, 1]],
                             rect: ['-898px', '0px', '710px', '400px', 'auto', 'auto'],
+                            transform: [[], [], ['-41']],
                             id: 'Rectangle6',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             type: 'rect',
                             fill: ['rgba(239,119,35,1.00)']
                         },
                         {
-                            transform: [[], ['-48'], [0, 0, 0], [1, 1, 1]],
-                            id: 'represent-b',
-                            type: 'image',
                             rect: ['-213px', '567px', '477px', '58px', 'auto', 'auto'],
+                            id: 'represent-b',
+                            transform: [[], ['-48']],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/represent-b.png', '0px', '0px']
                         },
                         {
@@ -452,17 +451,18 @@
                             fill: ['rgba(0,0,0,0)', 'images/represent.png', '0px', '0px']
                         },
                         {
-                            type: 'rect',
+                            rect: ['0px', '1px', '1000px', '400px', 'auto', 'auto'],
                             id: 'Rectangle7',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            rect: ['0px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(239,119,35,0.00)']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, '1000px', '400px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
                         }
                     }
                 },
@@ -481,16 +481,6 @@
                             '222px'
                         ],
                         [
-                            "eid435",
-                            "top",
-                            1000,
-                            1000,
-                            "easeOutCubic",
-                            "${represent-b}",
-                            '567px',
-                            '142px'
-                        ],
-                        [
                             "eid431",
                             "top",
                             500,
@@ -499,6 +489,16 @@
                             "${represent}",
                             '-403px',
                             '-3px'
+                        ],
+                        [
+                            "eid433",
+                            "left",
+                            500,
+                            1000,
+                            "easeOutCubic",
+                            "${represent}",
+                            '615px',
+                            '265px'
                         ],
                         [
                             "eid427",
@@ -521,19 +521,150 @@
                             '160px'
                         ],
                         [
-                            "eid433",
-                            "left",
-                            500,
+                            "eid435",
+                            "top",
+                            1000,
                             1000,
                             "easeOutCubic",
-                            "${represent}",
-                            '615px',
-                            '265px'
+                            "${represent-b}",
+                            '567px',
+                            '142px'
                         ]
                     ]
                 }
             },
             "SlideSymbol0": {
+                version: "6.0.0",
+                minimumCompatibleVersion: "5.0.0",
+                build: "6.0.0.400",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0', '1000px', '400px', 'auto', 'auto'],
+                            filter: [0, 0, 1, 1, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
+                            id: 'torn-paper',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/torn-paper.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['-28px', '-34px', '674px', '489px', 'auto', 'auto'],
+                            id: 'lion',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/lion.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['541px', '0px', '459px', '400px', 'auto', 'auto'],
+                            id: 'torn',
+                            type: 'image',
+                            clip: 'rect(0px 459px 2px 0px)',
+                            fill: ['rgba(0,0,0,0)', 'images/torn.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['609px', '67px', '339px', '266px', 'auto', 'auto'],
+                            id: 'text',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/text.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Rectangle',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(192,192,192,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 4500,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid459",
+                            "width",
+                            1000,
+                            3500,
+                            "easeOutCubic",
+                            "${lion}",
+                            '674px',
+                            '732px'
+                        ],
+                        [
+                            "eid457",
+                            "height",
+                            1000,
+                            3500,
+                            "easeOutCubic",
+                            "${lion}",
+                            '489px',
+                            '530px'
+                        ],
+                        [
+                            "eid440",
+                            "clip",
+                            1000,
+                            500,
+                            "easeOutCubic",
+                            "${torn}",
+                            [0,459,2,0],
+                            [0,459,400,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid461",
+                            "left",
+                            1000,
+                            3500,
+                            "easeOutCubic",
+                            "${lion}",
+                            '-28px',
+                            '-44px'
+                        ],
+                        [
+                            "eid451",
+                            "opacity",
+                            1000,
+                            1000,
+                            "easeOutCubic",
+                            "${lion}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid463",
+                            "top",
+                            1000,
+                            3500,
+                            "easeOutCubic",
+                            "${lion}",
+                            '-34px',
+                            '-52px'
+                        ],
+                        [
+                            "eid453",
+                            "opacity",
+                            0,
+                            1133,
+                            "easeOutCubic",
+                            "${text}",
+                            '0',
+                            '1'
+                        ]
+                    ]
+                }
+            },
+            "SlideSymbol1": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
