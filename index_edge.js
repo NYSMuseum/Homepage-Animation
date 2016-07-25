@@ -71,10 +71,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,0,0,0.00)']
                         }
                     ],
@@ -123,8 +123,8 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid213",
-                            "border-top-right-radius",
+                            "eid211",
+                            "border-bottom-left-radius",
                             0,
                             0,
                             "linear",
@@ -156,8 +156,8 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid211",
-                            "border-bottom-left-radius",
+                            "eid213",
+                            "border-top-right-radius",
                             0,
                             0,
                             "linear",
@@ -205,39 +205,39 @@
                     dom: [
                         {
                             rect: ['0px', '0px', '1000px', '400px', 'auto', 'auto'],
-                            stroke: [0, 'rgb(255, 255, 255)', 'solid'],
+                            opacity: '0',
                             overflow: 'auto',
                             id: 'Rectangle2',
-                            opacity: '0',
+                            stroke: [0, 'rgb(255, 255, 255)', 'solid'],
                             type: 'rect',
                             fill: ['rgba(127,159,184,1.00)']
                         },
                         {
-                            rect: ['14px', '0', '621px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'stpauls',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['14px', '0', '621px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/stpauls.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['475px', '95px', '500px', '129px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'title2',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['475px', '95px', '500px', '129px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/title2.png', '0px', '0px']
                         },
                         {
-                            rect: ['663px', '317px', '300px', '60px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'nysmcredit',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['663px', '317px', '300px', '60px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/nysmcredit.png', '0px', '0px']
                         },
                         {
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle4',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            type: 'rect',
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
                             fill: ['rgba(41,47,85,0)']
                         }
                     ],
@@ -253,14 +253,14 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid225",
-                            "opacity",
-                            500,
-                            675,
+                            "eid425",
+                            "top",
+                            2208,
+                            0,
                             "easeOutCubic",
-                            "${stpauls}",
-                            '0',
-                            '1'
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid226",
@@ -273,14 +273,14 @@
                             '0px'
                         ],
                         [
-                            "eid425",
-                            "top",
-                            2208,
-                            0,
+                            "eid233",
+                            "opacity",
+                            1175,
+                            825,
                             "easeOutCubic",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
+                            "${title2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid229",
@@ -293,12 +293,12 @@
                             '14px'
                         ],
                         [
-                            "eid223",
+                            "eid239",
                             "opacity",
-                            0,
+                            2500,
                             500,
                             "easeOutCubic",
-                            "${Rectangle2}",
+                            "${nysmcredit}",
                             '0',
                             '1'
                         ],
@@ -313,22 +313,22 @@
                             '1000px'
                         ],
                         [
-                            "eid239",
+                            "eid223",
                             "opacity",
-                            2500,
+                            0,
                             500,
                             "easeOutCubic",
-                            "${nysmcredit}",
+                            "${Rectangle2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid233",
+                            "eid225",
                             "opacity",
-                            1175,
-                            825,
+                            500,
+                            675,
                             "easeOutCubic",
-                            "${title2}",
+                            "${stpauls}",
                             '0',
                             '1'
                         ]
@@ -345,49 +345,49 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
                             filter: [0, 0, 1, 0.91877140410959, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'A-State-of-Change',
-                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/A-State-of-Change.jpg', '0px', '0px']
                         },
                         {
-                            type: 'rect',
                             rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
                             transform: [[], [], ['31'], [1, 1, 1]],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             id: 'Rectangle2',
                             opacity: '0.8799225101626',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
                             fill: ['rgba(34,187,237,1.00)']
                         },
                         {
-                            opacity: '1',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             rect: ['32px', '-36px', '516px', '521px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 209.09139951941, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'EllipseCopy',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '1',
                             type: 'ellipse',
                             fill: ['rgba(41,47,85,1.00)']
                         },
                         {
-                            opacity: '0.56494537601626',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             rect: ['103px', '-9px', '464px', '468px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 210.05458047945, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'Ellipse',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.56494537601626',
                             type: 'ellipse',
                             fill: ['rgba(14,79,100,1.00)']
                         },
                         {
-                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto'],
                             font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
-                            align: 'left',
+                            type: 'text',
+                            textStyle: ['', '', '', '', 'none'],
                             id: 'Text2',
                             text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
-                            textStyle: ['', '', '', '', 'none'],
-                            type: 'text'
+                            align: 'left',
+                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto']
                         }
                     ],
                     style: {
@@ -430,18 +430,18 @@
                             fill: ['rgba(0,0,0,0)', 'images/WatermanLR.jpg', '0px', '0px']
                         },
                         {
-                            transform: [[], [], ['-41'], [1, 1, 1]],
                             rect: ['-898px', '0px', '710px', '400px', 'auto', 'auto'],
+                            transform: [[], [], ['-41'], [1, 1, 1]],
                             id: 'Rectangle6',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             type: 'rect',
                             fill: ['rgba(239,119,35,1.00)']
                         },
                         {
-                            transform: [[], ['-48'], [0, 0, 0], [1, 1, 1]],
-                            id: 'represent-b',
                             type: 'image',
+                            id: 'represent-b',
                             rect: ['-213px', '567px', '477px', '58px', 'auto', 'auto'],
+                            transform: [[], ['-48'], [0, 0, 0], [1, 1, 1]],
                             fill: ['rgba(0,0,0,0)', 'images/represent-b.png', '0px', '0px']
                         },
                         {
@@ -451,10 +451,10 @@
                             fill: ['rgba(0,0,0,0)', 'images/represent.png', '0px', '0px']
                         },
                         {
-                            type: 'rect',
+                            rect: ['0px', '1px', '1000px', '400px', 'auto', 'auto'],
                             id: 'Rectangle7',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            rect: ['0px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(239,119,35,0.00)']
                         }
                     ],
@@ -480,16 +480,6 @@
                             '222px'
                         ],
                         [
-                            "eid431",
-                            "top",
-                            500,
-                            1000,
-                            "easeOutCubic",
-                            "${represent}",
-                            '-403px',
-                            '-3px'
-                        ],
-                        [
                             "eid435",
                             "top",
                             1000,
@@ -498,6 +488,16 @@
                             "${represent-b}",
                             '567px',
                             '142px'
+                        ],
+                        [
+                            "eid427",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCubic",
+                            "${Rectangle6}",
+                            '-898px',
+                            '-198px'
                         ],
                         [
                             "eid433",
@@ -520,14 +520,14 @@
                             '160px'
                         ],
                         [
-                            "eid427",
-                            "left",
-                            0,
+                            "eid431",
+                            "top",
+                            500,
                             1000,
                             "easeOutCubic",
-                            "${Rectangle6}",
-                            '-898px',
-                            '-198px'
+                            "${represent}",
+                            '-403px',
+                            '-3px'
                         ]
                     ]
                 }
@@ -542,38 +542,38 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['0px', '0', '1000px', '400px', 'auto', 'auto'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'torn-paper',
-                            rect: ['0px', '0', '1000px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/torn-paper.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
+                            rect: ['-28px', '-34px', '674px', '489px', 'auto', 'auto'],
                             id: 'lion',
                             opacity: '0',
-                            rect: ['-28px', '-34px', '674px', '489px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/lion.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'torn',
                             rect: ['541px', '0px', '459px', '400px', 'auto', 'auto'],
+                            id: 'torn',
+                            type: 'image',
                             clip: 'rect(0px 459px 2px 0px)',
                             fill: ['rgba(0,0,0,0)', 'images/torn.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
+                            rect: ['609px', '67px', '339px', '266px', 'auto', 'auto'],
                             id: 'text',
                             opacity: '0',
-                            rect: ['609px', '67px', '339px', '266px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/text.png', '0px', '0px']
                         },
                         {
-                            type: 'rect',
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(192,192,192,0.00)']
                         }
                     ],
@@ -640,16 +640,6 @@
                             '1'
                         ],
                         [
-                            "eid453",
-                            "opacity",
-                            0,
-                            1133,
-                            "easeOutCubic",
-                            "${text}",
-                            '0',
-                            '1'
-                        ],
-                        [
                             "eid463",
                             "top",
                             1000,
@@ -658,6 +648,16 @@
                             "${lion}",
                             '-34px',
                             '-52px'
+                        ],
+                        [
+                            "eid453",
+                            "opacity",
+                            0,
+                            1133,
+                            "easeOutCubic",
+                            "${text}",
+                            '0',
+                            '1'
                         ]
                     ]
                 }
@@ -672,38 +672,38 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['0px', '0px', '1000px', '400px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            rect: ['0px', '0px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(192,192,192,1)', [89, [['rgba(255,255,255,1.00)', 0], ['rgba(255,255,255,1.00)', 100]]]]
                         },
                         {
-                            type: 'image',
+                            rect: ['4px', '0px', '606px', '400px', 'auto', 'auto'],
                             id: 'imagingamericanwest2',
                             opacity: '0',
-                            rect: ['4px', '0px', '606px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/imagingamericanwest.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
+                            rect: ['586px', '247px', '300px', '62px', 'auto', 'auto'],
                             id: 'imaging_sub',
                             opacity: '0',
-                            rect: ['586px', '247px', '300px', '62px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/imaging_sub.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
+                            rect: ['653px', '36px', '200px', '201px', 'auto', 'auto'],
                             id: 'imaging_title',
                             opacity: '0',
-                            rect: ['653px', '36px', '200px', '201px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/imaging_title.png', '0px', '0px']
                         },
                         {
-                            type: 'rect',
+                            rect: ['0px', '1px', '1000px', '400px', 'auto', 'auto'],
                             id: 'Rectangle5',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            rect: ['0px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(34,187,237,0.00)']
                         }
                     ],

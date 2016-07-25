@@ -90,26 +90,21 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
             {
 
             nope:[
-            
+
 		//***Instructions on working with this file locally***
 		//If you are working locally add these files in the "scripts tabs"
-		//Click the + sign and select "add js from URL
-		//add (copy and paste one at a time):
-	
-		//	https://code.jquery.com/jquery-1.12.4.min.js
-		// http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js
-		// https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/utils/Draggable.min.js
-		
+		//Click the + sign and select "add js from disk
+		//add /JS/devloader.js
+
 		//then, UNcomment this line
-			
-		//	"http://www.nysm.nysed.gov/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
-		
+
+	//	"http://www.nysm.nysed.gov/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
+
 		//and comment this one
-       "/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
-      
-      
-      //Please remember to delete the added script declarations and undo comment when putting this on production!!!
-      
+      "/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
+
+      //Please remember to delete the added script declaration and undo comment when putting this on production!!!
+
             ] ,
 
             complete: init
