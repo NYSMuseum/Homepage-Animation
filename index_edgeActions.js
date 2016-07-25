@@ -98,10 +98,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
 		//then, UNcomment this line
 
-	//	"http://www.nysm.nysed.gov/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
+	"http://www.nysm.nysed.gov/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
 
 		//and comment this one
-      "/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
+   //   "/sites/all/themes/nysm/homepageanimation/js/ThrowPropsPlugin.min.js"
 
       //Please remember to delete the added script declaration and undo comment when putting this on production!!!
 

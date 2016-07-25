@@ -39,7 +39,7 @@
 
     },
     script: {
-        'loading': '         // insert code to be run during preloading here\n         \n     '
+        'loading': '         // insert code to be run during preloading here\n         \n         if(window.location.href.indexOf("127.0.0.1") > -1) {\n                    var imported = document.createElement(\'script\');\n                         imported.src = \'js/devloader.js\';        \n                         document.head.appendChild(imported);\n          }\n'
     }
 }, {"dom":[]});
 </script>
