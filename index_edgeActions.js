@@ -69,7 +69,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 		var AUTO_SLIDE_INTERVAL = 8;
 
 		//set NUM_SLIDES - you will need to ensure there are 4 slides in in the library called SlideSymbol0, SlideSymbol1, SlideSymbol2, SlideSymbol3 etc (zero based)
-		var NUM_SLIDES = 4;
+		var NUM_SLIDES = 2;
 
 		//the amount of deceleration of the slides when thrown - default is 1000 - larger values decelerate more quickly
 		var THROW_RESISTANCE = 8000;
@@ -456,8 +456,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-   })("SlideSymbol2");
-   //Edge symbol end:'SlideSymbol2'
+   })("SlideSymbol1");
+   //Edge symbol end:'SlideSymbol1'
 
    //=========================================================
    
@@ -466,24 +466,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("SlideSymbol34");
    //Edge symbol end:'SlideSymbol34'
-
-   //=========================================================
-   
-   //Edge symbol: 'SlideSymbol3_1'
-   (function(symbolName) {   
-   
-      Symbol.bindElementAction(compId, symbolName, "${Rectangle7}", "click", function(sym, e) {
-         // insert code for mouse click here
-         // Navigate to a new URL in the current window
-         // (replace "_self" with appropriate target attribute)
-         window.open("exhibitions/represent-contemporary-native-american-art", "_self");
-         
-
-      });
-      //Edge binding end
-
-      })("SlideSymbol3");
-   //Edge symbol end:'SlideSymbol3'
 
    //=========================================================
    
@@ -507,17 +489,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'SlideSymbol0_1'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${Rectangle5}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle}", "click", function(sym, e) {
          // insert code for mouse click here
-         
-         // Navigate to a new URL in the current window
-         // (replace "_self" with appropriate target attribute)
-         window.open("exhibitions/imaging-american-west-selections-metropolitan-museum-art", "_self");
+         window.open("exhibitions/exhibitions/hudson-valley-ruins", "_self");
 
       });
          //Edge binding end
 
-         })("SlideSymbol1");
-   //Edge symbol end:'SlideSymbol1'
+         })("SlideSymbol2");
+   //Edge symbol end:'SlideSymbol2'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-351832807");
