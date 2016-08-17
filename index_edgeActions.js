@@ -69,7 +69,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 		var AUTO_SLIDE_INTERVAL = 8;
 
 		//set NUM_SLIDES - you will need to ensure there are 4 slides in in the library called SlideSymbol0, SlideSymbol1, SlideSymbol2, SlideSymbol3 etc (zero based)
-		var NUM_SLIDES = 2;
+		var NUM_SLIDES = 3;
 
 		//the amount of deceleration of the slides when thrown - default is 1000 - larger values decelerate more quickly
 		var THROW_RESISTANCE = 8000;
@@ -481,8 +481,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      })("SlideSymbol0");
-   //Edge symbol end:'SlideSymbol0'
+      })("SlideSymbol2");
+   //Edge symbol end:'SlideSymbol2'
 
    //=========================================================
    
@@ -496,7 +496,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
          //Edge binding end
 
-         })("SlideSymbol2");
-   //Edge symbol end:'SlideSymbol2'
+         })("SlideSymbol0");
+   //Edge symbol end:'SlideSymbol0'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-351832807");
