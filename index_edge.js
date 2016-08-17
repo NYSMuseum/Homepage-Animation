@@ -71,10 +71,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,0,0,0.00)']
                         }
                     ],
@@ -123,8 +123,8 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid213",
-                            "border-top-right-radius",
+                            "eid211",
+                            "border-bottom-left-radius",
                             0,
                             0,
                             "linear",
@@ -156,8 +156,8 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid211",
-                            "border-bottom-left-radius",
+                            "eid213",
+                            "border-top-right-radius",
                             0,
                             0,
                             "linear",
@@ -205,47 +205,46 @@
                     dom: [
                         {
                             rect: ['0px', '0px', '1000px', '400px', 'auto', 'auto'],
-                            stroke: [0, 'rgb(255, 255, 255)', 'solid'],
+                            opacity: '0',
                             overflow: 'auto',
                             id: 'Rectangle2',
-                            opacity: '0',
+                            stroke: [0, 'rgb(255, 255, 255)', 'solid'],
                             type: 'rect',
                             fill: ['rgba(127,159,184,1.00)']
                         },
                         {
-                            rect: ['14px', '0', '621px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'stpauls',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['14px', '0', '621px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/stpauls.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['475px', '95px', '500px', '129px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'title2',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['475px', '95px', '500px', '129px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/title2.png', '0px', '0px']
                         },
                         {
-                            rect: ['663px', '317px', '300px', '60px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'nysmcredit',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['663px', '317px', '300px', '60px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/nysmcredit.png', '0px', '0px']
                         },
                         {
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle4',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            type: 'rect',
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
                             fill: ['rgba(41,47,85,0)']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1000px', '400px'],
-                            overflow: 'hidden'
+                            overflow: 'hidden',
+                            rect: [null, null, '1000px', '400px']
                         }
                     }
                 },
@@ -254,14 +253,14 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid225",
-                            "opacity",
-                            500,
-                            675,
+                            "eid425",
+                            "top",
+                            2208,
+                            0,
                             "easeOutCubic",
-                            "${stpauls}",
-                            '0',
-                            '1'
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid226",
@@ -274,14 +273,14 @@
                             '0px'
                         ],
                         [
-                            "eid425",
-                            "top",
-                            2208,
-                            0,
+                            "eid233",
+                            "opacity",
+                            1175,
+                            825,
                             "easeOutCubic",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
+                            "${title2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid229",
@@ -294,12 +293,12 @@
                             '14px'
                         ],
                         [
-                            "eid223",
+                            "eid239",
                             "opacity",
-                            0,
+                            2500,
                             500,
                             "easeOutCubic",
-                            "${Rectangle2}",
+                            "${nysmcredit}",
                             '0',
                             '1'
                         ],
@@ -314,22 +313,22 @@
                             '1000px'
                         ],
                         [
-                            "eid239",
+                            "eid223",
                             "opacity",
-                            2500,
+                            0,
                             500,
                             "easeOutCubic",
-                            "${nysmcredit}",
+                            "${Rectangle2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid233",
+                            "eid225",
                             "opacity",
-                            1175,
-                            825,
+                            500,
+                            675,
                             "easeOutCubic",
-                            "${title2}",
+                            "${stpauls}",
                             '0',
                             '1'
                         ]
@@ -346,56 +345,55 @@
                 content: {
                     dom: [
                         {
-                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             filter: [0, 0, 1, 0.91877140410959, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'A-State-of-Change',
-                            type: 'image',
+                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/A-State-of-Change.jpg', '0px', '0px']
                         },
                         {
+                            transform: [[], [], ['31'], [1, 1, 1]],
                             rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
-                            transform: [[], [], ['31']],
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            id: 'Rectangle2',
-                            opacity: '0.8799225101626',
                             type: 'rect',
+                            id: 'Rectangle2',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.8799225101626',
                             fill: ['rgba(34,187,237,1.00)']
                         },
                         {
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '1',
                             rect: ['32px', '-36px', '516px', '521px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 209.09139951941, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'EllipseCopy',
-                            opacity: '1',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             type: 'ellipse',
                             fill: ['rgba(41,47,85,1.00)']
                         },
                         {
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.56494537601626',
                             rect: ['103px', '-9px', '464px', '468px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 210.05458047945, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'Ellipse',
-                            opacity: '0.56494537601626',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             type: 'ellipse',
                             fill: ['rgba(14,79,100,1.00)']
                         },
                         {
-                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto'],
-                            textStyle: ['', '', '', '', 'none'],
                             font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
-                            id: 'Text2',
-                            text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
+                            type: 'text',
                             align: 'left',
-                            type: 'text'
+                            id: 'Text2',
+                            textStyle: ['', '', '', '', 'none'],
+                            text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
+                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1000px', '400px'],
-                            overflow: 'hidden'
+                            overflow: 'hidden',
+                            rect: [null, null, '1000px', '400px']
                         }
                     }
                 },
@@ -426,46 +424,45 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0', '1000px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             filter: [0, 0, 1, 1, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'torn-paper',
-                            type: 'image',
+                            rect: ['0px', '0', '1000px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/torn-paper.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['-28px', '-34px', '674px', '489px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'lion',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['-28px', '-34px', '674px', '489px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/lion.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['541px', '0px', '459px', '400px', 'auto', 'auto'],
-                            id: 'torn',
                             type: 'image',
+                            id: 'torn',
+                            rect: ['541px', '0px', '459px', '400px', 'auto', 'auto'],
                             clip: 'rect(0px 459px 2px 0px)',
                             fill: ['rgba(0,0,0,0)', 'images/torn.png', '0px', '0px']
                         },
                         {
-                            rect: ['609px', '67px', '339px', '266px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'text',
                             opacity: '0',
-                            type: 'image',
+                            rect: ['609px', '67px', '339px', '266px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/text.png', '0px', '0px']
                         },
                         {
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle',
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            type: 'rect',
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
                             fill: ['rgba(192,192,192,0.00)']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1000px', '400px'],
-                            overflow: 'hidden'
+                            overflow: 'hidden',
+                            rect: [null, null, '1000px', '400px']
                         }
                     }
                 },
@@ -525,16 +522,6 @@
                             '1'
                         ],
                         [
-                            "eid453",
-                            "opacity",
-                            0,
-                            1133,
-                            "easeOutCubic",
-                            "${text}",
-                            '0',
-                            '1'
-                        ],
-                        [
                             "eid463",
                             "top",
                             1000,
@@ -543,6 +530,16 @@
                             "${lion}",
                             '-34px',
                             '-52px'
+                        ],
+                        [
+                            "eid453",
+                            "opacity",
+                            0,
+                            1133,
+                            "easeOutCubic",
+                            "${text}",
+                            '0',
+                            '1'
                         ]
                     ]
                 }
@@ -563,11 +560,11 @@
                             fill: ['rgba(0,0,0,0)', 'images/hudson-graysq.png', '0px', '0px']
                         },
                         {
-                            rect: ['618px', '135px', '325px', '73px', 'auto', 'auto'],
-                            id: 'hudson-valley2',
+                            rect: ['592px', '23px', '410px', '400px', 'auto', 'auto'],
+                            id: 'hudson-TITLESQ',
                             opacity: '0',
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/hudson-valley2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', 'images/hudson-TITLESQ.jpg', '0px', '0px']
                         },
                         {
                             rect: ['50px', '0', '540px', '400px', 'auto', 'auto'],
@@ -591,24 +588,10 @@
                             fill: ['rgba(0,0,0,0)', 'images/hudson-01.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['618px', '53px', '353px', '83px', 'auto', 'auto'],
-                            id: 'hudson-top',
-                            opacity: '0',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/hudson-top.png', '0px', '0px']
-                        },
-                        {
                             id: 'hudson-left',
                             type: 'image',
                             rect: ['0', '0', '50px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/hudson-left.jpg', '0px', '0px']
-                        },
-                        {
-                            rect: ['590px', '214px', '410px', '69px', 'auto', 'auto'],
-                            id: 'hudson-ruins2',
-                            opacity: '0',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/hudson-ruins.png', '0px', '0px']
                         },
                         {
                             rect: ['894px', '212px', '61px', '74px', 'auto', 'auto'],
@@ -643,18 +626,18 @@
                             type: 'text'
                         },
                         {
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
-                            id: 'Rectangle',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            type: 'rect',
-                            fill: ['rgba(192,192,192,0.00)']
-                        },
-                        {
                             rect: ['627px', '314px', '335px', '47px', 'auto', 'auto'],
                             id: 'hudson-photogaller2',
                             opacity: '0',
                             type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/hudson-photogaller2.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Rectangle',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(192,192,192,0.00)']
                         }
                     ],
                     style: {
@@ -670,36 +653,6 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid615",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${hudson-ruins2}",
-                            '590px',
-                            '590px'
-                        ],
-                        [
-                            "eid616",
-                            "left",
-                            61,
-                            0,
-                            "linear",
-                            "${hudson-ruins2}",
-                            '590px',
-                            '590px'
-                        ],
-                        [
-                            "eid593",
-                            "left",
-                            10000,
-                            0,
-                            "linear",
-                            "${hudson-ruins2}",
-                            '590px',
-                            '590px'
-                        ],
-                        [
                             "eid606",
                             "top",
                             10000,
@@ -710,14 +663,34 @@
                             '212px'
                         ],
                         [
-                            "eid601",
-                            "left",
-                            1500,
-                            6500,
+                            "eid604",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${hudson-S}",
-                            '900px',
-                            '899px'
+                            "${Rectangle2Copy3}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid605",
+                            "display",
+                            2500,
+                            0,
+                            "linear",
+                            "${Rectangle2Copy3}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid647",
+                            "opacity",
+                            0,
+                            1000,
+                            "linear",
+                            "${hudson-TITLESQ}",
+                            '0.000000',
+                            '1'
                         ],
                         [
                             "eid467",
@@ -770,44 +743,14 @@
                             '32deg'
                         ],
                         [
-                            "eid470",
-                            "left",
-                            0,
-                            0,
-                            "easeOutCubic",
-                            "${hudson-03}",
-                            '50px',
-                            '50px'
-                        ],
-                        [
-                            "eid604",
-                            "display",
-                            0,
-                            0,
+                            "eid600",
+                            "top",
+                            1500,
+                            4333,
                             "linear",
-                            "${Rectangle2Copy3}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid605",
-                            "display",
-                            2500,
-                            0,
-                            "linear",
-                            "${Rectangle2Copy3}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid623",
-                            "opacity",
-                            0,
-                            1000,
-                            "linear",
-                            "${hudson-ruins2}",
-                            '0',
-                            '1'
+                            "${hudson-S}",
+                            '216px',
+                            '234px'
                         ],
                         [
                             "eid629",
@@ -817,56 +760,6 @@
                             "linear",
                             "${hudson-photogaller2}",
                             '0.000000',
-                            '1'
-                        ],
-                        [
-                            "eid621",
-                            "opacity",
-                            0,
-                            1000,
-                            "linear",
-                            "${hudson-top}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid609",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${hudson-top}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid610",
-                            "left",
-                            1000,
-                            0,
-                            "linear",
-                            "${hudson-top}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid620",
-                            "top",
-                            4562,
-                            0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '135px',
-                            '135px'
-                        ],
-                        [
-                            "eid622",
-                            "opacity",
-                            0,
-                            1000,
-                            "linear",
-                            "${hudson-valley2}",
-                            '0',
                             '1'
                         ],
                         [
@@ -890,44 +783,24 @@
                             'block'
                         ],
                         [
-                            "eid612",
+                            "eid470",
                             "left",
                             0,
                             0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '618px',
-                            '618px'
+                            "easeOutCubic",
+                            "${hudson-03}",
+                            '50px',
+                            '50px'
                         ],
                         [
-                            "eid613",
+                            "eid601",
                             "left",
-                            183,
-                            0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid614",
-                            "left",
-                            2500,
-                            0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid600",
-                            "top",
                             1500,
-                            4333,
+                            6500,
                             "linear",
                             "${hudson-S}",
-                            '216px',
-                            '234px'
+                            '900px',
+                            '899px'
                         ]
                     ]
                 }
