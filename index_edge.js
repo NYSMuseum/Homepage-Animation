@@ -71,10 +71,10 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            type: 'rect',
+                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
                             fill: ['rgba(255,0,0,0.00)']
                         }
                     ],
@@ -123,8 +123,8 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid211",
-                            "border-bottom-left-radius",
+                            "eid213",
+                            "border-top-right-radius",
                             0,
                             0,
                             "linear",
@@ -156,8 +156,8 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid213",
-                            "border-top-right-radius",
+                            "eid211",
+                            "border-bottom-left-radius",
                             0,
                             0,
                             "linear",
@@ -243,8 +243,9 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, '1000px', '400px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
                         }
                     }
                 },
@@ -263,19 +264,19 @@
                             '1'
                         ],
                         [
-                            "eid233",
-                            "opacity",
-                            1175,
-                            825,
-                            "easeOutCubic",
-                            "${title2}",
-                            '0',
-                            '1'
-                        ],
-                        [
                             "eid226",
                             "left",
                             0,
+                            0,
+                            "easeOutCubic",
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid425",
+                            "top",
+                            2208,
                             0,
                             "easeOutCubic",
                             "${Rectangle2}",
@@ -293,12 +294,12 @@
                             '14px'
                         ],
                         [
-                            "eid239",
+                            "eid223",
                             "opacity",
-                            2500,
+                            0,
                             500,
                             "easeOutCubic",
-                            "${nysmcredit}",
+                            "${Rectangle2}",
                             '0',
                             '1'
                         ],
@@ -313,24 +314,24 @@
                             '1000px'
                         ],
                         [
-                            "eid223",
+                            "eid239",
                             "opacity",
-                            0,
+                            2500,
                             500,
                             "easeOutCubic",
-                            "${Rectangle2}",
+                            "${nysmcredit}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid425",
-                            "top",
-                            2208,
-                            0,
+                            "eid233",
+                            "opacity",
+                            1175,
+                            825,
                             "easeOutCubic",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
+                            "${title2}",
+                            '0',
+                            '1'
                         ]
                     ]
                 }
@@ -353,7 +354,7 @@
                         },
                         {
                             rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
-                            transform: [[], [], ['31'], [1, 1, 1]],
+                            transform: [[], [], ['31']],
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             id: 'Rectangle2',
                             opacity: '0.8799225101626',
@@ -381,19 +382,20 @@
                             fill: ['rgba(14,79,100,1.00)']
                         },
                         {
-                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
-                            type: 'text',
+                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto'],
                             textStyle: ['', '', '', '', 'none'],
+                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
                             id: 'Text2',
                             text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
                             align: 'left',
-                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto']
+                            type: 'text'
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, '1000px', '400px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
                         }
                     }
                 },
@@ -461,8 +463,9 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, '1000px', '400px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
                         }
                     }
                 },
@@ -522,16 +525,6 @@
                             '1'
                         ],
                         [
-                            "eid463",
-                            "top",
-                            1000,
-                            3500,
-                            "easeOutCubic",
-                            "${lion}",
-                            '-34px',
-                            '-52px'
-                        ],
-                        [
                             "eid453",
                             "opacity",
                             0,
@@ -540,6 +533,16 @@
                             "${text}",
                             '0',
                             '1'
+                        ],
+                        [
+                            "eid463",
+                            "top",
+                            1000,
+                            3500,
+                            "easeOutCubic",
+                            "${lion}",
+                            '-34px',
+                            '-52px'
                         ]
                     ]
                 }
@@ -624,25 +627,11 @@
                             fill: ['rgba(0,0,0,0)', 'images/hudson-S.png', '0px', '0px']
                         },
                         {
-                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
-                            id: 'Rectangle',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            type: 'rect',
-                            fill: ['rgba(192,192,192,0.00)']
-                        },
-                        {
                             rect: ['50px', '0', '540px', '400px', 'auto', 'auto'],
                             id: 'building',
                             opacity: '0',
                             type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/building.jpg', '0px', '0px']
-                        },
-                        {
-                            rect: ['654px', '283px', '234px', '28px', 'auto', 'auto'],
-                            id: 'Text',
-                            text: '<p style=\"margin: 0px; text-indent: 0%;\"><span style=\"font-size: 100%;\">​</span><span style=\"color: rgb(183, 189, 212); font-family: \'Lucida Sans Unicode\', \'Lucida Grande\', sans-serif; font-weight: 300;\">Photography Gallery</span></p>',
-                            font: ['Lucida Sans Unicode, Lucida Grande, sans-serif', [24, 'px'], 'rgba(0,0,0,1)', '100', 'none', '', 'break-word', ''],
-                            type: 'text'
                         },
                         {
                             rect: ['-403', '125', 'auto', 'auto', 'auto', 'auto'],
@@ -652,6 +641,20 @@
                             text: '<p style=\"margin: 0px;\">​</p>',
                             align: 'left',
                             type: 'text'
+                        },
+                        {
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Rectangle',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(192,192,192,0.00)']
+                        },
+                        {
+                            rect: ['627px', '314px', '335px', '47px', 'auto', 'auto'],
+                            id: 'hudson-photogaller2',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/hudson-photogaller2.png', '0px', '0px']
                         }
                     ],
                     style: {
@@ -663,7 +666,7 @@
                     }
                 },
                 timeline: {
-                    duration: 13734.758450866,
+                    duration: 10000,
                     autoPlay: false,
                     data: [
                         [
@@ -679,7 +682,7 @@
                         [
                             "eid616",
                             "left",
-                            92,
+                            61,
                             0,
                             "linear",
                             "${hudson-ruins2}",
@@ -697,39 +700,19 @@
                             '590px'
                         ],
                         [
-                            "eid612",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid613",
-                            "left",
-                            274,
+                            "eid606",
+                            "top",
+                            10000,
                             0,
                             "linear",
-                            "${hudson-valley2}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid614",
-                            "left",
-                            2500,
-                            0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '618px',
-                            '618px'
+                            "${Rectangle2Copy3}",
+                            '212px',
+                            '212px'
                         ],
                         [
                             "eid601",
                             "left",
-                            2500,
+                            1500,
                             6500,
                             "linear",
                             "${hudson-S}",
@@ -737,34 +720,14 @@
                             '899px'
                         ],
                         [
-                            "eid625",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${Text}",
-                            '654px',
-                            '654px'
-                        ],
-                        [
                             "eid467",
                             "opacity",
-                            2500,
+                            1500,
                             3000,
                             "easeOutCubic",
                             "${hudson-01}",
                             '1',
                             '0'
-                        ],
-                        [
-                            "eid624",
-                            "font-size",
-                            0,
-                            0,
-                            "linear",
-                            "${Text}",
-                            '24px',
-                            '24px'
                         ],
                         [
                             "eid471",
@@ -779,7 +742,7 @@
                         [
                             "eid468",
                             "opacity",
-                            6500,
+                            4500,
                             3235,
                             "easeOutCubic",
                             "${hudson-03}",
@@ -789,7 +752,7 @@
                         [
                             "eid608",
                             "opacity",
-                            10735,
+                            7000,
                             3000,
                             "linear",
                             "${building}",
@@ -799,72 +762,12 @@
                         [
                             "eid558",
                             "rotateZ",
-                            2500,
+                            1500,
                             4333,
                             "linear",
                             "${hudson-S}",
                             '0deg',
                             '32deg'
-                        ],
-                        [
-                            "eid609",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${hudson-top}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid610",
-                            "left",
-                            1500,
-                            0,
-                            "linear",
-                            "${hudson-top}",
-                            '618px',
-                            '618px'
-                        ],
-                        [
-                            "eid626",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${Text}",
-                            '283px',
-                            '283px'
-                        ],
-                        [
-                            "eid606",
-                            "top",
-                            10000,
-                            0,
-                            "linear",
-                            "${Rectangle2Copy3}",
-                            '212px',
-                            '212px'
-                        ],
-                        [
-                            "eid621",
-                            "opacity",
-                            0,
-                            1500,
-                            "linear",
-                            "${hudson-top}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid600",
-                            "top",
-                            2500,
-                            4333,
-                            "linear",
-                            "${hudson-S}",
-                            '216px',
-                            '234px'
                         ],
                         [
                             "eid470",
@@ -875,46 +778,6 @@
                             "${hudson-03}",
                             '50px',
                             '50px'
-                        ],
-                        [
-                            "eid620",
-                            "top",
-                            4562,
-                            0,
-                            "linear",
-                            "${hudson-valley2}",
-                            '135px',
-                            '135px'
-                        ],
-                        [
-                            "eid622",
-                            "opacity",
-                            0,
-                            1500,
-                            "linear",
-                            "${hudson-valley2}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid602",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${hudson-S}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid603",
-                            "display",
-                            2500,
-                            0,
-                            "linear",
-                            "${hudson-S}",
-                            'none',
-                            'block'
                         ],
                         [
                             "eid604",
@@ -940,11 +803,131 @@
                             "eid623",
                             "opacity",
                             0,
-                            1500,
+                            1000,
                             "linear",
                             "${hudson-ruins2}",
                             '0',
                             '1'
+                        ],
+                        [
+                            "eid629",
+                            "opacity",
+                            1500,
+                            1500,
+                            "linear",
+                            "${hudson-photogaller2}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid621",
+                            "opacity",
+                            0,
+                            1000,
+                            "linear",
+                            "${hudson-top}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid609",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${hudson-top}",
+                            '618px',
+                            '618px'
+                        ],
+                        [
+                            "eid610",
+                            "left",
+                            1000,
+                            0,
+                            "linear",
+                            "${hudson-top}",
+                            '618px',
+                            '618px'
+                        ],
+                        [
+                            "eid620",
+                            "top",
+                            4562,
+                            0,
+                            "linear",
+                            "${hudson-valley2}",
+                            '135px',
+                            '135px'
+                        ],
+                        [
+                            "eid622",
+                            "opacity",
+                            0,
+                            1000,
+                            "linear",
+                            "${hudson-valley2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid602",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${hudson-S}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid603",
+                            "display",
+                            1500,
+                            0,
+                            "linear",
+                            "${hudson-S}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid612",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${hudson-valley2}",
+                            '618px',
+                            '618px'
+                        ],
+                        [
+                            "eid613",
+                            "left",
+                            183,
+                            0,
+                            "linear",
+                            "${hudson-valley2}",
+                            '618px',
+                            '618px'
+                        ],
+                        [
+                            "eid614",
+                            "left",
+                            2500,
+                            0,
+                            "linear",
+                            "${hudson-valley2}",
+                            '618px',
+                            '618px'
+                        ],
+                        [
+                            "eid600",
+                            "top",
+                            1500,
+                            4333,
+                            "linear",
+                            "${hudson-S}",
+                            '216px',
+                            '234px'
                         ]
                     ]
                 }
