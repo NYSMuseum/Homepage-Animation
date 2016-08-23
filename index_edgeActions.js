@@ -456,8 +456,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-   })("SlideSymbol1");
-   //Edge symbol end:'SlideSymbol1'
+   })("SlideSymbol2");
+   //Edge symbol end:'SlideSymbol2'
 
    //=========================================================
    
@@ -481,8 +481,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      })("SlideSymbol2");
-   //Edge symbol end:'SlideSymbol2'
+      })("SlideSymbol1");
+   //Edge symbol end:'SlideSymbol1'
 
    //=========================================================
    
@@ -491,7 +491,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
       Symbol.bindElementAction(compId, symbolName, "${Rectangle}", "click", function(sym, e) {
          // insert code for mouse click here
-         window.open("exhibitions/exhibitions/hudson-valley-ruins", "_self");
+         window.open("exhibitions/hudson-valley-ruins", "_self");
 
       });
          //Edge binding end

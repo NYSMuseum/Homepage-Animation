@@ -56,12 +56,26 @@
 			"animationEnabled":"true",
 			"timelineColor":"0x00a9fa"},
 		"dummyStageParentWidth":"800px",
-		"dummyStageParentHeight":"200px",
 		"element_${Rectangle7}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f"},
-		"element_${Group}":{
+		"element_${Text}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"element_${represent}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a096"},
+		"element_${represent-b}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"true",
+			"timelineColor":"0x008dc8"},
+		"element_${TextCopy}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"false",
@@ -71,88 +85,31 @@
 			"timelineColor3":"0x385063",
 			"animationEnabled":"true",
 			"timelineColor":"0x2f73ad"},
-		"element_${TextCopy}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"defaultStageParentHeight":"400px",
 		"element_${page3}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"},
+		"defaultStageParentWidth":"1000px",
 		"element_${Rectangle}":{
 			"timelineColor2":"0xb099ce",
 			"invisible":"false",
 			"timelineColor":"0xceaef4",
 			"animationEnabled":"false",
 			"timelineColor3":"0x70657c"},
-		"defaultStageParentWidth":"1000px",
-		"element_${represent-b}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"true",
-			"timelineColor":"0x008dc8"},
-		"element_${represent}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"true",
-			"timelineColor":"0x00a096"},
-		"element_${Text}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
+		"defaultStageParentHeight":"400px",
+		"element_${Group}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
 			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"}},
+			"timelineColor":"0xdb619d"},
+		"dummyStageParentHeight":"200px"},
 	"PubDPSName":"indexnysm",
 	"expanded:images/1962_early-cec-rendering.jpg":"nil",
 	"PosterImagePath":"images/Poster.png",
 	"expanded:images/imaging_sub.png":"nil",
 	"Preloader-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-photogallerynew2.png":"nil",
-	"expanded:images/building.jpg":"nil",
-	"expanded:images/hudson-ruins2.png":"nil",
-	"CompZoomFactor":"100",
-	"symbol_ImageSymbol":{
-		"dummyStageParentWidth":"800px",
-		"defaultStageParentHeight":"200px",
-		"codeTreeElementPopupFilter":"",
-		"dummyStageParentHeight":"200px",
-		"defaultStageParentWidth":"800px",
-		"element_${imageBackground}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8"},
-		"element_${imageButton}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d"},
-		"element_${imageTitle}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a"}},
-	"SlideSymbol0-Default Timeline_playhead_ms":"0",
-	"expanded:images/torn.png":"nil",
-	"MainContainer-Default Timeline_playhead_ms":"0",
-	"expanded:images/lion.jpg":"nil",
-	"expanded:images/main5.jpg":"nil",
-	"expanded:images/1973_completed-tower.jpg":"nil",
-	"SlideSymbol01-Default Timeline_playhead_ms":"0",
-	"expanded:images/cloud.png":"nil",
-	"symbol_Red":{
-		"element_${Text}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767"},
-		"element_${RoundRect}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82"}},
-	"HTMLFileName":"index.html",
-	"expanded:images/hudson-valley2.png":"nil",
-	"expanded:images/torn-edge.png":"nil",
-	"expanded:images/A-State-of-Change.jpg":"nil",
-	"symbol_SlideSymbol1":{
+	"symbol_SlideSymbol2":{
 		"element_${Text}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
@@ -175,138 +132,105 @@
 			"timelineColor3":"0x81714f",
 			"animationEnabled":"false",
 			"timelineColor":"0xffd46d"},
-		"element_${Rectangle4}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${Rectangle2}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"true",
-			"timelineColor":"0xffd46d"},
-		"element_${page0}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
 		"defaultStageParentHeight":"400px",
-		"element_${heading}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"defaultStageParentWidth":"1000px",
-		"element_${stpauls}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"true",
-			"timelineColor":"0xdb619d"},
 		"element_${EllipseCopy3}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
 			"timelineColor":"0x50bd82"},
+		"element_${page0}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${Rectangle4}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"element_${heading}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"defaultStageParentWidth":"1000px",
+		"element_${Rectangle}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"element_${stpauls}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"},
+		"element_${Rectangle2}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
 		"element_${nysmcredit}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"}},
-	"ModelData":"{\
-\"stage\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"MainContainerSymbol\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"PageButtonSymbol\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"PageButtonContainerSymbol\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol1\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol34\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol2\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol0\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"Preloader\": {\
-   \"timelines\": {\
-\
-   }},\
-\"Down-level\": {\
-   \"timelines\": {\
-\
-   }}\
-}",
-	"expanded:images/main4.jpg":"nil",
-	"expanded:images/main5.png":"nil",
-	"PageBtn-Default Timeline_playhead_ms":"0",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"SlideSymbol5-Default Timeline_playhead_ms":"0",
 	"expanded:images/torn-paper.jpg":"nil",
-	"expanded:images/hudson-top.png":"nil",
-	"symbol_PageButtonContainerSymbol":{
-		"defaultStageParentHeight":"20px",
-		"element_${btn}":{
+	"MainContainer-Default Timeline_playhead_ms":"0",
+	"expanded:images/hudson-ruins2.png":"nil",
+	"CompZoomFactor":"100",
+	"symbol_ImageSymbol":{
+		"element_${imageTitle}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"dummyStageParentWidth":"800px",
+		"codeTreeElementPopupFilter":"",
+		"dummyStageParentHeight":"200px",
+		"defaultStageParentWidth":"800px",
+		"element_${imageBackground}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${imageButton}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
 			"timelineColor":"0xdb619d"},
-		"defaultStageParentWidth":"20px",
-		"dummyStageParentHeight":"200px",
-		"dummyStageParentWidth":"800px"},
-	"PubDPSUseCDN":"true",
-	"expanded:images/title2.png":"nil",
-	"expanded:images/hudson-right.jpg":"nil",
-	"expanded:images/page3.jpg":"nil",
-	"expanded:images/hudson-valley.png":"nil",
-	"expanded:images/hudson-left.jpg":"nil",
-	"PosterCapturePos":"1",
+		"defaultStageParentHeight":"200px"},
+	"expanded:images/cloud.png":"nil",
+	"expanded:images/torn.png":"nil",
+	"pref__general__TimelineSnapEnabled":"true",
+	"SlideSymbol1-Default Timeline_playhead_ms":"0",
+	"expanded:images/main5.jpg":"nil",
 	"stage-Default Timeline_playhead_ms":"4500",
-	"symbol_SlideSymbol2":{
+	"SlideSymbol01-Default Timeline_playhead_ms":"0",
+	"expanded:images/food-panty.png":"nil",
+	"symbol_Red":{
+		"element_${Text}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"element_${RoundRect}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82"}},
+	"HTMLFileName":"index.html",
+	"expanded:images/hudson-valley2.png":"nil",
+	"expanded:images/torn-edge.png":"nil",
+	"PosterCapturePos":"1",
+	"symbol_SlideSymbol1":{
 		"element_${Text}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"animationEnabled":"false",
 			"timelineColor":"0x00a096"},
-		"element_${RoundRect}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
+		"dummyStageParentWidth":"800px",
+		"element_${torn-paper}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad",
 			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
-		"element_${imaging_title}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
+			"timelineColor3":"0x385063"},
 		"dummyStageParentHeight":"200px",
 		"element_${imaging_sub}":{
 			"timelineColor2":"0x5a558a",
@@ -344,18 +268,27 @@
 			"timelineColor3":"0x29647e",
 			"animationEnabled":"false",
 			"timelineColor":"0x00a9fa"},
-		"element_${torn-paper}":{
-			"timelineColor2":"0x326a96",
-			"invisible":"false",
-			"timelineColor":"0x2f73ad",
+		"element_${imaging_title}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
 			"animationEnabled":"false",
-			"timelineColor3":"0x385063"},
-		"dummyStageParentWidth":"800px",
-		"element_${Rectangle}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x008dc8"},
+		"element_${imagingamericanwest2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
+			"timelineColor":"0x00a9fa"},
+		"defaultStageParentWidth":"1000px",
+		"element_${page1}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"element_${GroupCopy2}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
 		"element_${lion}":{
 			"timelineColor2":"0x81aa62",
 			"invisible":"false",
@@ -367,16 +300,6 @@
 			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"false",
 			"timelineColor":"0x91c767"},
-		"element_${page1}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"false",
-			"timelineColor":"0x63599f"},
-		"element_${GroupCopy2}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
 		"defaultStageParentHeight":"400px",
 		"element_${paraCopy}":{
 			"timelineColor2":"0x1095d2",
@@ -388,12 +311,16 @@
 			"timelineColor3":"0x81714f",
 			"animationEnabled":"false",
 			"timelineColor":"0xffd46d"},
-		"defaultStageParentWidth":"1000px",
-		"element_${imagingamericanwest2}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
+		"element_${Rectangle}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
+			"timelineColor":"0x00a096"},
+		"element_${RoundRect}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
 		"element_${Rectangle5}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -404,55 +331,360 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"}},
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"MainContainerSymbol\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"PageButtonSymbol\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"PageButtonContainerSymbol\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol2\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol34\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol1\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol0\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"expanded:images/main4.jpg":"nil",
+	"expanded:images/main5.png":"nil",
+	"PageBtn-Default Timeline_playhead_ms":"0",
+	"expanded:images/hudson-valley.png":"nil",
+	"expanded:images/hudson-hudsonvalley.png":"nil",
+	"expanded:images/hudson-top.png":"nil",
+	"symbol_PageButtonContainerSymbol":{
+		"defaultStageParentHeight":"20px",
+		"element_${btn}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"defaultStageParentWidth":"20px",
+		"dummyStageParentWidth":"800px",
+		"dummyStageParentHeight":"200px"},
+	"PubDPSUseCDN":"true",
+	"expanded:images/title2.png":"nil",
+	"expanded:images/hudson-right.jpg":"nil",
+	"expanded:images/page3.jpg":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/hudson-left.jpg":"nil",
+	"expanded:images/1973_completed-tower.jpg":"nil",
+	"SlideSymbol3-Default Timeline_playhead_ms":"0",
+	"viewStartY":"0",
 	"MainContainerSymbol-Default Timeline_playhead_ms":"0",
-	"pref__general__TimelineSnapEnabled":"true",
+	"expanded:images/building.jpg":"nil",
 	"PubStaticHTMLContent":"true",
-	"SlideSymbol1-Default Timeline_playhead_ms":"0",
+	"expanded:images/page0.jpg":"nil",
 	"usedBOM":"false",
 	"expanded:images/hudson-photogaller2.png":"nil",
-	"expanded:images/hudson-01.jpg":"nil",
-	"PageButtonContainer-Default Timeline_playhead_ms":"0",
+	"SlideSymbol0-Default Timeline_playhead_ms":"0",
 	"expanded:images/hudson-ruins.png":"nil",
-	"expanded:images/nysmcredit.png":"nil",
-	"expanded:images/sky.png":"nil",
-	"pref__general__AutoKeyframeProperties":"true",
+	"nextElementColorIndex":"14",
+	"colorSwatches":"rgba(168,173,194,1.00)|rgba(52,82,102,1.00)",
 	"SlideSymbol2-Default Timeline_playhead_ms":"0",
-	"expanded:images/websiteurl.png":"nil",
-	"symbol_SlideSymbol2xxxx":{
-		"dummyStageParentWidth":"800px",
-		"element_${Ellipse}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"timelineColor":"0x00a9fa",
-			"animationEnabled":"false",
-			"usingMotionPaths":"true"},
-		"dummyStageParentHeight":"200px",
-		"defaultStageParentWidth":"800px",
-		"defaultStageParentHeight":"200px",
-		"element_${page2}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"}},
-	"expanded:images/Poster.png":"nil",
-	"SlideSymbol4-Default Timeline_playhead_ms":"2000",
+	"expanded:images/imaging_title.png":"nil",
+	"SlideSymbol2-Default Timeline_mark_ms":"-1",
+	"expanded:images/sky.png":"nil",
+	"expanded:images/hudson-photogallerynew2.png":"nil",
+	"SlideSymbol1-Default Timeline_mark_ms":"-1",
+	"expanded:images/hills.png":"nil",
 	"expanded:images/hudson-02.jpg":"nil",
-	"SlideSymbol4-Default Timeline_mark_ms":"4500",
-	"SlideSymbol0-Default Timeline_mark_ms":"-1",
-	"pref__general__codeView":"sectionalView",
-	"expanded:images/can_text.png":"nil",
+	"expanded:images/websiteurl.png":"nil",
+	"expanded:images/imagingamericanwest.png":"nil",
+	"expanded:images/hudson-graysq.png":"nil",
+	"expanded:images/hudson-photogaller.png":"nil",
 	"UseCDN":"false",
 	"pref__general__FilterNonAnimatedElements":"false",
 	"symbol_PageButtonSymbol":{
-		"dummyStageParentWidth":"800px",
+		"defaultStageParentHeight":"20px",
 		"element_${btn}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"true",
 			"timelineColor":"0xceaef4"},
 		"defaultStageParentWidth":"20px",
-		"defaultStageParentHeight":"20px",
-		"dummyStageParentHeight":"200px"},
+		"dummyStageParentHeight":"200px",
+		"dummyStageParentWidth":"800px"},
+	"SlideSymbol0-Default Timeline_mark_ms":"-1",
+	"expanded:images/play.png":"nil",
+	"expanded:images/page2.jpg":"nil",
+	"symbol_MainContainerSymbol":{
+		"dummyStageParentWidth":"800px",
+		"element_${btn3}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${btn1}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"defaultStageParentHeight":"200px",
+		"element_${btn2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"dummyStageParentHeight":"200px",
+		"defaultStageParentWidth":"800px",
+		"element_${btn0}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"}},
+	"symbol_Preloader":{
+		"defaultStageParentWidth":"1000px",
+		"defaultStageParentHeight":"400px",
+		"dummyStageParentWidth":"1000px",
+		"dummyStageParentHeight":"400px"},
+	"expanded:images/floor.png":"nil",
+	"p50_slideshow-Default Timeline_playhead_ms":"0",
+	"StageZoomFactor":"100",
+	"pixelsPerMs":"0.031881173914693",
+	"expanded:images/hudson-TITLESQ.jpg":"nil",
+	"expanded:images/represent.png":"nil",
+	"expanded:images/WatermanLR.jpg":"nil",
+	"expanded:images/hudson-03.jpg":"nil",
+	"expanded:images/text.png":"nil",
+	"SlideSymbol3-Default Timeline_mark_ms":"-1",
+	"PageButton-Default Timeline_playhead_ms":"0",
+	"expanded:images/hudson-S.png":"nil",
+	"PubChromeFrameInstallerPrompt":"none",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"p50_slideshow-Default Timeline_mark_ms":"-1",
+	"PubUseChromeFrameInstaller":"false",
+	"PageButtonContainerSymbol-Default Timeline_playhead_ms":"0",
+	"symbol_SlideSymbol0":{
+		"element_${torn-paper}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"dummyStageParentHeight":"400px",
+		"element_${Rectangle2Copy3}":{
+			"timelineColor2":"0xd8b467",
+			"invisible":"false",
+			"timelineColor":"0xffd46d",
+			"animationEnabled":"true",
+			"timelineColor3":"0x81714f"},
+		"element_${hudson-ruins22}":{
+			"timelineColor2":"0x168c84",
+			"invisible":"false",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"false",
+			"timelineColor3":"0x2a605c"},
+		"element_${hudson-ruins2}":{
+			"timelineColor2":"0x5a558a",
+			"invisible":"true",
+			"timelineColor":"0x63599f",
+			"animationEnabled":"false",
+			"timelineColor3":"0x4a485e"},
+		"element_${Rectangle2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${building}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${Rectangle2Copy4}":{
+			"timelineColor2":"0xcbbd71",
+			"invisible":"false",
+			"timelineColor":"0xeedf79",
+			"animationEnabled":"false",
+			"timelineColor3":"0x7b7652"},
+		"element_${hudson-left}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"invisible":"false",
+			"timelineColor":"0x91c767"},
+		"defaultStageParentHeight":"400px",
+		"element_${Rectangle}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"invisible":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${text}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"element_${hudson-02}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"dummyStageParentWidth":"1000px",
+		"element_${Rectangle2Copy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${hudson-03}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${hudson-photogaller2}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${hudson-S}":{
+			"timelineColor2":"0x81aa62",
+			"invisible":"false",
+			"timelineColor":"0x91c767",
+			"animationEnabled":"true",
+			"timelineColor3":"0x5b6c4d"},
+		"element_${hudson-hudsonvalley}":{
+			"timelineColor2":"0x1095d2",
+			"invisible":"true",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"false",
+			"timelineColor3":"0x29647e"},
+		"element_${hudson-valley}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"false",
+			"timelineColor3":"0x385063"},
+		"element_${hudson-valley2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${hudson-TITLESQ}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${hudson-right2}":{
+			"timelineColor2":"0xcbbd71",
+			"invisible":"true",
+			"timelineColor":"0xeedf79",
+			"animationEnabled":"false",
+			"timelineColor3":"0x7b7652"},
+		"element_${Rectangle2Copy2}":{
+			"timelineColor2":"0xba5b89",
+			"invisible":"true",
+			"timelineColor":"0xdb619d",
+			"animationEnabled":"false",
+			"timelineColor3":"0x734a5f"},
+		"element_${hudson-ruins}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${hudson-top}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${Text}":{
+			"timelineColor2":"0x5a558a",
+			"invisible":"false",
+			"timelineColor":"0x63599f",
+			"animationEnabled":"false",
+			"timelineColor3":"0x4a485e"},
+		"element_${lion}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"element_${Text2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4",
+			"locked":"true",
+			"invisible":"true"},
+		"element_${hudson-01}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${hudson-photogallerynew2}":{
+			"timelineColor2":"0xd8b467",
+			"invisible":"false",
+			"timelineColor":"0xffd46d",
+			"animationEnabled":"true",
+			"timelineColor3":"0x81714f"},
+		"element_${Rectangle2Copy5}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"defaultStageParentWidth":"1000px",
+		"element_${torn}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${hudson-graysq}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad"},
+		"element_${hudson-right}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"}},
+	"expanded:images/imagingamericanwest.jpg":"nil",
+	"PageButtonSymbol-Default Timeline_playhead_ms":"0",
 	"symbol_SlideSymbol34":{
 		"element_${Text}":{
 			"timelineColor2":"0xd35d6e",
@@ -516,279 +748,49 @@
 			"animationEnabled":"false",
 			"timelineTreeOpened":"false"},
 		"defaultStageParentWidth":"1000px",
+		"element_${Rectangle2}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"invisible":"true",
+			"timelineColor":"0xdb619d"},
 		"element_${paraCopy}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
-		"element_${Rectangle2}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"invisible":"true",
-			"timelineColor":"0xdb619d"}},
-	"expanded:images/floor.png":"nil",
-	"expanded:images/page2.jpg":"nil",
-	"p50_slideshow-Default Timeline_playhead_ms":"0",
-	"symbol_Preloader":{
-		"defaultStageParentWidth":"1000px",
-		"defaultStageParentHeight":"400px",
-		"dummyStageParentWidth":"1000px",
-		"dummyStageParentHeight":"400px"},
-	"symbol_SlideSymbol0":{
-		"element_${torn-paper}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"dummyStageParentHeight":"400px",
-		"element_${Rectangle2Copy3}":{
-			"timelineColor2":"0xd8b467",
-			"invisible":"false",
-			"timelineColor":"0xffd46d",
-			"animationEnabled":"true",
-			"timelineColor3":"0x81714f"},
-		"element_${hudson-ruins22}":{
-			"timelineColor2":"0x168c84",
-			"invisible":"false",
-			"timelineColor":"0x00a096",
-			"animationEnabled":"false",
-			"timelineColor3":"0x2a605c"},
-		"element_${hudson-ruins2}":{
-			"timelineColor2":"0x5a558a",
-			"invisible":"true",
-			"timelineColor":"0x63599f",
-			"animationEnabled":"false",
-			"timelineColor3":"0x4a485e"},
-		"element_${Rectangle2}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${hudson-03}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"timelineColor":"0x00a096",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${Rectangle2Copy4}":{
-			"timelineColor2":"0xcbbd71",
-			"invisible":"false",
-			"timelineColor":"0xeedf79",
-			"animationEnabled":"false",
-			"timelineColor3":"0x7b7652"},
-		"element_${hudson-left}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"invisible":"false",
-			"timelineColor":"0x91c767"},
-		"defaultStageParentHeight":"400px",
-		"element_${Rectangle}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"invisible":"true",
-			"timelineColor":"0x008dc8"},
-		"element_${text}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"false",
-			"timelineColor":"0x63599f"},
-		"element_${Text}":{
-			"timelineColor2":"0x5a558a",
-			"invisible":"false",
-			"timelineColor":"0x63599f",
-			"animationEnabled":"false",
-			"timelineColor3":"0x4a485e"},
-		"element_${hudson-01}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${hudson-TITLESQ}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${hudson-photogallerynew2}":{
-			"timelineColor2":"0xd8b467",
-			"invisible":"false",
-			"timelineColor":"0xffd46d",
-			"animationEnabled":"true",
-			"timelineColor3":"0x81714f"},
-		"element_${building}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
-		"element_${hudson-graysq}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"invisible":"false",
-			"timelineColor":"0x2f73ad"},
-		"element_${hudson-hudsonvalley}":{
-			"timelineColor2":"0x1095d2",
-			"invisible":"true",
-			"timelineColor":"0x00a9fa",
-			"animationEnabled":"false",
-			"timelineColor3":"0x29647e"},
-		"element_${torn}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${hudson-valley2}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"timelineColor":"0x00a9fa",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${hudson-valley}":{
-			"timelineColor2":"0x326a96",
-			"invisible":"false",
-			"timelineColor":"0x2f73ad",
-			"animationEnabled":"false",
-			"timelineColor3":"0x385063"},
-		"element_${hudson-right2}":{
-			"timelineColor2":"0xcbbd71",
-			"invisible":"true",
-			"timelineColor":"0xeedf79",
-			"animationEnabled":"false",
-			"timelineColor3":"0x7b7652"},
-		"element_${Rectangle2Copy2}":{
-			"timelineColor2":"0xba5b89",
-			"invisible":"true",
-			"timelineColor":"0xdb619d",
-			"animationEnabled":"false",
-			"timelineColor3":"0x734a5f"},
-		"element_${hudson-ruins}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
-		"element_${hudson-top}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${hudson-02}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${lion}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${Text2}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4",
-			"locked":"true",
-			"invisible":"true"},
-		"dummyStageParentWidth":"1000px",
-		"element_${Rectangle2Copy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${Rectangle2Copy5}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"defaultStageParentWidth":"1000px",
-		"element_${hudson-S}":{
-			"timelineColor2":"0x81aa62",
-			"invisible":"false",
-			"timelineColor":"0x91c767",
-			"animationEnabled":"true",
-			"timelineColor3":"0x5b6c4d"},
-		"element_${hudson-photogaller2}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${hudson-right}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"}},
-	"PageButtonContainerSymbol-Default Timeline_playhead_ms":"0",
-	"StageZoomFactor":"100",
-	"pixelsPerMs":"0.031881173914693",
-	"expanded:images/hudson-TITLESQ.jpg":"nil",
-	"expanded:images/WatermanLR.jpg":"nil",
-	"expanded:images/represent.png":"nil",
-	"expanded:images/hudson-03.jpg":"nil",
-	"expanded:images/text.png":"nil",
-	"p50_slideshow-Default Timeline_mark_ms":"-1",
-	"PageButton-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-S.png":"nil",
-	"pref__general__GenerateSmoothTransitions":"true",
-	"PubChromeFrameInstallerPrompt":"none",
-	"SlideSymbol3-Default Timeline_mark_ms":"-1",
-	"PubUseChromeFrameInstaller":"false",
-	"symbol_MainContainerSymbol":{
+			"timelineColor":"0x008dc8"}},
+	"pref__general__codeView":"sectionalView",
+	"expanded:images/can_text.png":"nil",
+	"expanded:images/clouds.png":"nil",
+	"SlideSymbol4-Default Timeline_playhead_ms":"2000",
+	"SlideSymbol4-Default Timeline_mark_ms":"4500",
+	"symbol_SlideSymbol2xxxx":{
 		"dummyStageParentWidth":"800px",
-		"element_${btn3}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
-		"element_${btn1}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"defaultStageParentHeight":"200px",
-		"element_${btn2}":{
+		"element_${Ellipse}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
+			"usingMotionPaths":"true"},
 		"dummyStageParentHeight":"200px",
 		"defaultStageParentWidth":"800px",
-		"element_${btn0}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
+		"element_${page2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a096"}},
-	"expanded:images/play.png":"nil",
-	"expanded:images/imagingamericanwest.jpg":"nil",
-	"PageButtonSymbol-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-photogaller.png":"nil",
-	"expanded:images/hudson-graysq.png":"nil",
-	"expanded:images/imagingamericanwest.png":"nil",
-	"expanded:images/clouds.png":"nil",
-	"expanded:images/hills.png":"nil",
-	"SlideSymbol1-Default Timeline_mark_ms":"-1",
-	"SlideSymbol2-Default Timeline_mark_ms":"-1",
-	"expanded:images/imaging_title.png":"nil",
+			"timelineColor":"0xceaef4"},
+		"defaultStageParentHeight":"200px"},
+	"expanded:images/Poster.png":"nil",
 	"expanded:images/bg-6.jpg":"nil",
-	"colorSwatches":"rgba(168,173,194,1.00)|rgba(52,82,102,1.00)",
-	"nextElementColorIndex":"14",
+	"pref__general__AutoKeyframeProperties":"true",
+	"expanded:images/nysmcredit.png":"nil",
 	"symbol_stage":{
 		"element_${backArrow}":{
 			"epOpened":"true",
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa",
 			"animationEnabled":"false",
-			"invisible":"false",
-			"timelineColor2":"0x1095d2"},
+			"timelineColor2":"0x1095d2",
+			"invisible":"false"},
 		"element_${RoundRect}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -865,8 +867,8 @@
 			"timelineColor":"0x008dc8",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false",
-			"invisible":"false",
-			"timelineColor2":"0x107faa"},
+			"timelineColor2":"0x107faa",
+			"invisible":"false"},
 		"element_${imageButton}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
@@ -913,16 +915,17 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
-		"element_${p50_slideshow}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
+		"element_${page2}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
 			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
-		"element_${sliderHolder}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"invisible":"false",
-			"timelineColor":"0xceaef4"},
+			"timelineColor":"0xdb619d"},
+		"element_${Group}":{
+			"epOpened":"false",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"false",
+			"timelineColor2":"0x326a96"},
 		"element_${Red}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -933,74 +936,72 @@
 			"timelineColor3":"0x295a6d",
 			"invisible":"false",
 			"timelineColor":"0x008dc8"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
+		"element_${SlideSymbol22}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
 			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
+			"timelineColor":"0xfb657a"},
 		"element_${RectangleCopy}":{
 			"timelineColor2":"0xb099ce",
 			"invisible":"false",
 			"timelineColor":"0xceaef4",
 			"animationEnabled":"false",
 			"timelineColor3":"0x70657c"},
-		"element_${btn}":{
+		"element_${Stage}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
 		"element_${PageButton}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"},
+		"element_${page3}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"element_${PageButtonContainer}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
 		"element_${GroupCopy}":{
 			"epOpened":"true",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false",
-			"invisible":"false",
-			"timelineColor2":"0x5a558a"},
-		"element_${PageButtonContainer}":{
+			"timelineColor2":"0x5a558a",
+			"invisible":"false"},
+		"element_${btn}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"1000px",
+		"element_${Rectangle}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"false",
 			"timelineColor":"0x00bda4"},
-		"element_${page3}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
-		"element_${Stage}":{
+		"element_${sliderHolder}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"invisible":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${p50_slideshow}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
-		"defaultStageParentWidth":"1000px",
-		"element_${SlideSymbol22}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
 			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${Group}":{
-			"epOpened":"false",
-			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad",
-			"animationEnabled":"false",
-			"timelineColor2":"0x326a96"},
-		"element_${page2}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"}},
+			"timelineColor":"0xeedf79"}},
 	"TransitionIdCounter":"650",
-	"expanded:images/page0.jpg":"nil",
-	"viewStartY":"0",
-	"SlideSymbol3-Default Timeline_playhead_ms":"0",
+	"PageButtonContainer-Default Timeline_playhead_ms":"0",
+	"expanded:images/hudson-01.jpg":"nil",
 	"SlideSymbol34-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-hudsonvalley.png":"nil",
+	"expanded:images/A-State-of-Change.jpg":"nil",
 	"expanded:images/page1.jpg":"nil",
-	"expanded:images/food-panty.png":"nil",
+	"expanded:images/lion.jpg":"nil",
 	"expanded:images/logo.png":"nil",
 	"ImageSymbol-Default Timeline_playhead_ms":"0",
 	"expanded:images/hudson-photogallerynew.png":"nil",
