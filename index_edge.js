@@ -71,10 +71,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,0,0,0.00)']
                         }
                     ],
@@ -123,8 +123,8 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid213",
-                            "border-top-right-radius",
+                            "eid211",
+                            "border-bottom-left-radius",
                             0,
                             0,
                             "linear",
@@ -156,8 +156,8 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid211",
-                            "border-bottom-left-radius",
+                            "eid213",
+                            "border-top-right-radius",
                             0,
                             0,
                             "linear",
@@ -194,7 +194,7 @@
                     ]
                 }
             },
-            "SlideSymbol2": {
+            "SlideSymbol3": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -254,14 +254,14 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid225",
-                            "opacity",
-                            500,
-                            675,
+                            "eid425",
+                            "top",
+                            2208,
+                            0,
                             "easeOutCubic",
-                            "${stpauls}",
-                            '0',
-                            '1'
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid226",
@@ -274,14 +274,14 @@
                             '0px'
                         ],
                         [
-                            "eid425",
-                            "top",
-                            2208,
-                            0,
+                            "eid233",
+                            "opacity",
+                            1175,
+                            825,
                             "easeOutCubic",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
+                            "${title2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid229",
@@ -294,12 +294,12 @@
                             '14px'
                         ],
                         [
-                            "eid223",
+                            "eid239",
                             "opacity",
-                            0,
+                            2500,
                             500,
                             "easeOutCubic",
-                            "${Rectangle2}",
+                            "${nysmcredit}",
                             '0',
                             '1'
                         ],
@@ -314,22 +314,22 @@
                             '1000px'
                         ],
                         [
-                            "eid239",
+                            "eid223",
                             "opacity",
-                            2500,
+                            0,
                             500,
                             "easeOutCubic",
-                            "${nysmcredit}",
+                            "${Rectangle2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid233",
+                            "eid225",
                             "opacity",
-                            1175,
-                            825,
+                            500,
+                            675,
                             "easeOutCubic",
-                            "${title2}",
+                            "${stpauls}",
                             '0',
                             '1'
                         ]
@@ -346,49 +346,49 @@
                 content: {
                     dom: [
                         {
-                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             filter: [0, 0, 1, 0.91877140410959, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'A-State-of-Change',
-                            type: 'image',
+                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/A-State-of-Change.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
                             transform: [[], [], ['31'], [1, 1, 1]],
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                            id: 'Rectangle2',
-                            opacity: '0.8799225101626',
+                            rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
                             type: 'rect',
+                            id: 'Rectangle2',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.8799225101626',
                             fill: ['rgba(34,187,237,1.00)']
                         },
                         {
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '1',
                             rect: ['32px', '-36px', '516px', '521px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 209.09139951941, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'EllipseCopy',
-                            opacity: '1',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             type: 'ellipse',
                             fill: ['rgba(41,47,85,1.00)']
                         },
                         {
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.56494537601626',
                             rect: ['103px', '-9px', '464px', '468px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 210.05458047945, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'Ellipse',
-                            opacity: '0.56494537601626',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             type: 'ellipse',
                             fill: ['rgba(14,79,100,1.00)']
                         },
                         {
-                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
                             type: 'text',
-                            textStyle: ['', '', '', '', 'none'],
-                            id: 'Text2',
-                            text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
+                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto'],
                             align: 'left',
-                            rect: ['41px', '176px', '556px', '87px', 'auto', 'auto']
+                            id: 'Text2',
+                            textStyle: ['', '', '', '', 'none'],
+                            text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
+                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', '']
                         }
                     ],
                     style: {
@@ -415,7 +415,7 @@
                     ]
                 }
             },
-            "SlideSymbol1": {
+            "SlideSymbol2": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -524,16 +524,6 @@
                             '1'
                         ],
                         [
-                            "eid453",
-                            "opacity",
-                            0,
-                            1133,
-                            "easeOutCubic",
-                            "${text}",
-                            '0',
-                            '1'
-                        ],
-                        [
                             "eid463",
                             "top",
                             1000,
@@ -542,11 +532,210 @@
                             "${lion}",
                             '-34px',
                             '-52px'
+                        ],
+                        [
+                            "eid453",
+                            "opacity",
+                            0,
+                            1133,
+                            "easeOutCubic",
+                            "${text}",
+                            '0',
+                            '1'
                         ]
                     ]
                 }
             },
             "SlideSymbol0": {
+                version: "6.0.0",
+                minimumCompatibleVersion: "5.0.0",
+                build: "6.0.0.400",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['1px', '0px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Rectangle',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(255,255,255,1.00)']
+                        },
+                        {
+                            rect: ['0px', '-101px', '1000px', '1705px', 'auto', 'auto'],
+                            filter: [0, 0, 1, 1, 0, 0, 0, 4, 'rgba(0,0,0,0)', 0, 0, 0],
+                            overflow: 'hidden',
+                            id: 'smoke3',
+                            opacity: '0.53598196138211',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/smoke.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['1px', '-731px', '1000px', '1705px', 'auto', 'auto'],
+                            filter: [0, 0, 1, 1, 0, 0, 0, 4, 'rgba(0,0,0,0)', 0, 0, 0],
+                            overflow: 'hidden',
+                            id: 'smoke3Copy',
+                            opacity: '0.47332317073171',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/smoke.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['267px', '82px', '466px', '129px', 'auto', 'auto'],
+                            id: 'worldtradecenter2',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/worldtradecenter.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['215px', '298px', '571px', '79px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.87', '0.87']],
+                            id: 'surivors-info',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/surivors-info.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['268px', '211px', '466px', '80px', 'auto', 'auto'],
+                            id: 'survivors3',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/survivors.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['1px', '0px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Rectangle2',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(255,255,255,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 8000,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid718",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${smoke3Copy}",
+                            '1px',
+                            '1px'
+                        ],
+                        [
+                            "eid719",
+                            "left",
+                            8000,
+                            0,
+                            "linear",
+                            "${smoke3Copy}",
+                            '1px',
+                            '0px'
+                        ],
+                        [
+                            "eid715",
+                            "top",
+                            0,
+                            8000,
+                            "linear",
+                            "${smoke3Copy}",
+                            '-447px',
+                            '-731px'
+                        ],
+                        [
+                            "eid737",
+                            "opacity",
+                            1750,
+                            1500,
+                            "linear",
+                            "${survivors3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid712",
+                            "top",
+                            0,
+                            8000,
+                            "linear",
+                            "${smoke3}",
+                            '-101px',
+                            '-246px'
+                        ],
+                        [
+                            "eid716",
+                            "filter.blur",
+                            0,
+                            8000,
+                            "linear",
+                            "${smoke3Copy}",
+                            '0px',
+                            '4px'
+                        ],
+                        [
+                            "eid742",
+                            "top",
+                            614,
+                            7386,
+                            "linear",
+                            "${worldtradecenter2}",
+                            '82px',
+                            '92px'
+                        ],
+                        [
+                            "eid721",
+                            "opacity",
+                            3750,
+                            891,
+                            "linear",
+                            "${surivors-info}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid714",
+                            "filter.blur",
+                            0,
+                            8000,
+                            "linear",
+                            "${smoke3}",
+                            '0px',
+                            '4px'
+                        ],
+                        [
+                            "eid713",
+                            "left",
+                            0,
+                            8000,
+                            "linear",
+                            "${smoke3}",
+                            '0px',
+                            '1px'
+                        ],
+                        [
+                            "eid733",
+                            "opacity",
+                            614,
+                            1136,
+                            "linear",
+                            "${worldtradecenter2}",
+                            '0',
+                            '1'
+                        ]
+                    ]
+                }
+            },
+            "SlideSymbol1": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -655,14 +844,14 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid649",
-                            "opacity",
+                            "eid558",
+                            "rotateZ",
                             1500,
-                            1500,
+                            4333,
                             "linear",
-                            "${hudson-photogallerynew2}",
-                            '0.000000',
-                            '1'
+                            "${hudson-S}",
+                            '0deg',
+                            '32deg'
                         ],
                         [
                             "eid470",
@@ -785,14 +974,14 @@
                             '0'
                         ],
                         [
-                            "eid558",
-                            "rotateZ",
+                            "eid649",
+                            "opacity",
                             1500,
-                            4333,
+                            1500,
                             "linear",
-                            "${hudson-S}",
-                            '0deg',
-                            '32deg'
+                            "${hudson-photogallerynew2}",
+                            '0.000000',
+                            '1'
                         ]
                     ]
                 }

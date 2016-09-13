@@ -69,7 +69,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 		var AUTO_SLIDE_INTERVAL = 8;
 
 		//set NUM_SLIDES - you will need to ensure there are 4 slides in in the library called SlideSymbol0, SlideSymbol1, SlideSymbol2, SlideSymbol3 etc (zero based)
-		var NUM_SLIDES = 3;
+		var NUM_SLIDES = 4;
 
 		//the amount of deceleration of the slides when thrown - default is 1000 - larger values decelerate more quickly
 		var THROW_RESISTANCE = 8000;
@@ -456,8 +456,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-   })("SlideSymbol2");
-   //Edge symbol end:'SlideSymbol2'
+   })("SlideSymbol3");
+   //Edge symbol end:'SlideSymbol3'
 
    //=========================================================
    
@@ -481,8 +481,26 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      })("SlideSymbol1");
-   //Edge symbol end:'SlideSymbol1'
+      })("SlideSymbol2");
+   //Edge symbol end:'SlideSymbol2'
+
+   //=========================================================
+   
+   //Edge symbol: 'SlideSymbol0_1'
+   (function(symbolName) {   
+   
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle2}", "click", function(sym, e) {
+         // insert code for mouse click here
+         window.open("/exhibitions/world-trade-center-survivors—-new-addition-world-trade-center-gallery", "_self");
+         
+
+      });
+      //Edge binding end
+
+         })("SlideSymbol0");
+   //Edge symbol end:'SlideSymbol0'
 
    //=========================================================
    
@@ -494,9 +512,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          window.open("exhibitions/hudson-valley-ruins", "_self");
 
       });
-         //Edge binding end
+            //Edge binding end
 
-         })("SlideSymbol0");
-   //Edge symbol end:'SlideSymbol0'
+            })("SlideSymbol1");
+   //Edge symbol end:'SlideSymbol1'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-351832807");
