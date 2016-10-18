@@ -71,10 +71,10 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            type: 'rect',
+                            rect: ['0', '0', '800px', '200px', 'auto', 'auto'],
                             fill: ['rgba(255,0,0,0.00)']
                         }
                     ],
@@ -123,8 +123,8 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid211",
-                            "border-bottom-left-radius",
+                            "eid213",
+                            "border-top-right-radius",
                             0,
                             0,
                             "linear",
@@ -156,8 +156,8 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid213",
-                            "border-top-right-radius",
+                            "eid211",
+                            "border-bottom-left-radius",
                             0,
                             0,
                             "linear",
@@ -194,7 +194,7 @@
                     ]
                 }
             },
-            "SlideSymbol3": {
+            "SlideSymbol4": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -244,7 +244,7 @@
                     style: {
                         '${symbolSelector}': {
                             isStage: 'true',
-                            rect: [undefined, undefined, '1000px', '400px'],
+                            rect: [undefined, undefined, '2500px', '800px'],
                             overflow: 'hidden'
                         }
                     }
@@ -264,22 +264,22 @@
                             '0px'
                         ],
                         [
-                            "eid226",
-                            "left",
-                            0,
-                            0,
-                            "easeOutCubic",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
                             "eid233",
                             "opacity",
                             1175,
                             825,
                             "easeOutCubic",
                             "${title2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid225",
+                            "opacity",
+                            500,
+                            675,
+                            "easeOutCubic",
+                            "${stpauls}",
                             '0',
                             '1'
                         ],
@@ -294,12 +294,12 @@
                             '14px'
                         ],
                         [
-                            "eid239",
+                            "eid223",
                             "opacity",
-                            2500,
+                            0,
                             500,
                             "easeOutCubic",
-                            "${nysmcredit}",
+                            "${Rectangle2}",
                             '0',
                             '1'
                         ],
@@ -314,24 +314,24 @@
                             '1000px'
                         ],
                         [
-                            "eid223",
+                            "eid239",
                             "opacity",
-                            0,
+                            2500,
                             500,
                             "easeOutCubic",
-                            "${Rectangle2}",
+                            "${nysmcredit}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid225",
-                            "opacity",
-                            500,
-                            675,
+                            "eid226",
+                            "left",
+                            0,
+                            0,
                             "easeOutCubic",
-                            "${stpauls}",
-                            '0',
-                            '1'
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
                         ]
                     ]
                 }
@@ -346,55 +346,56 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
                             filter: [0, 0, 1, 0.91877140410959, 0, 0, 0, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'A-State-of-Change',
-                            rect: ['-8px', '0px', '1047px', '400px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/A-State-of-Change.jpg', '0px', '0px']
                         },
                         {
-                            transform: [[], [], ['31'], [1, 1, 1]],
                             rect: ['21px', '0px', '550px', '400px', 'auto', 'auto'],
-                            type: 'rect',
-                            id: 'Rectangle2',
+                            transform: [[], [], ['31']],
                             stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'Rectangle2',
                             opacity: '0.8799225101626',
+                            type: 'rect',
                             fill: ['rgba(34,187,237,1.00)']
                         },
                         {
-                            opacity: '1',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             rect: ['32px', '-36px', '516px', '521px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 209.09139951941, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'EllipseCopy',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '1',
                             type: 'ellipse',
                             fill: ['rgba(41,47,85,1.00)']
                         },
                         {
-                            opacity: '0.56494537601626',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
                             rect: ['103px', '-9px', '464px', '468px', 'auto', 'auto'],
                             borderRadius: ['50%', '50%', '50%', '50%'],
                             filter: [0, 0, 1, 1, 0, 0, 0, 210.05458047945, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'Ellipse',
-                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            opacity: '0.56494537601626',
                             type: 'ellipse',
                             fill: ['rgba(14,79,100,1.00)']
                         },
                         {
-                            type: 'text',
                             rect: ['41px', '176px', '556px', '87px', 'auto', 'auto'],
-                            align: 'left',
-                            id: 'Text2',
                             textStyle: ['', '', '', '', 'none'],
+                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', ''],
+                            id: 'Text2',
                             text: '<p style=\"margin: 0px;\">​<span style=\"font-family: gothambold; font-size: 69px;\">We\'ve Been Busy</span></p>',
-                            font: ['Arial, Helvetica, sans-serif', [15, 'px'], 'rgba(255,255,255,1.00)', '400', 'none', 'normal', 'break-word', '']
+                            align: 'left',
+                            type: 'text'
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, '1000px', '400px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
                         }
                     }
                 },
@@ -415,7 +416,7 @@
                     ]
                 }
             },
-            "SlideSymbol2": {
+            "SlideSymbol3": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -524,16 +525,6 @@
                             '1'
                         ],
                         [
-                            "eid463",
-                            "top",
-                            1000,
-                            3500,
-                            "easeOutCubic",
-                            "${lion}",
-                            '-34px',
-                            '-52px'
-                        ],
-                        [
                             "eid453",
                             "opacity",
                             0,
@@ -542,11 +533,21 @@
                             "${text}",
                             '0',
                             '1'
+                        ],
+                        [
+                            "eid463",
+                            "top",
+                            1000,
+                            3500,
+                            "easeOutCubic",
+                            "${lion}",
+                            '-34px',
+                            '-52px'
                         ]
                     ]
                 }
             },
-            "SlideSymbol0": {
+            "SlideSymbol1": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -623,26 +624,6 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid718",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${smoke3Copy}",
-                            '1px',
-                            '1px'
-                        ],
-                        [
-                            "eid719",
-                            "left",
-                            8000,
-                            0,
-                            "linear",
-                            "${smoke3Copy}",
-                            '1px',
-                            '0px'
-                        ],
-                        [
                             "eid715",
                             "top",
                             0,
@@ -653,12 +634,12 @@
                             '-731px'
                         ],
                         [
-                            "eid737",
+                            "eid721",
                             "opacity",
-                            1750,
-                            1500,
+                            3750,
+                            891,
                             "linear",
-                            "${survivors3}",
+                            "${surivors-info}",
                             '0',
                             '1'
                         ],
@@ -683,6 +664,16 @@
                             '4px'
                         ],
                         [
+                            "eid733",
+                            "opacity",
+                            614,
+                            1136,
+                            "linear",
+                            "${worldtradecenter2}",
+                            '0',
+                            '1'
+                        ],
+                        [
                             "eid742",
                             "top",
                             614,
@@ -693,24 +684,34 @@
                             '92px'
                         ],
                         [
-                            "eid721",
+                            "eid737",
                             "opacity",
-                            3750,
-                            891,
+                            1750,
+                            1500,
                             "linear",
-                            "${surivors-info}",
+                            "${survivors3}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid714",
-                            "filter.blur",
+                            "eid718",
+                            "left",
                             0,
-                            8000,
+                            0,
                             "linear",
-                            "${smoke3}",
-                            '0px',
-                            '4px'
+                            "${smoke3Copy}",
+                            '1px',
+                            '1px'
+                        ],
+                        [
+                            "eid719",
+                            "left",
+                            8000,
+                            0,
+                            "linear",
+                            "${smoke3Copy}",
+                            '1px',
+                            '0px'
                         ],
                         [
                             "eid713",
@@ -723,19 +724,19 @@
                             '1px'
                         ],
                         [
-                            "eid733",
-                            "opacity",
-                            614,
-                            1136,
+                            "eid714",
+                            "filter.blur",
+                            0,
+                            8000,
                             "linear",
-                            "${worldtradecenter2}",
-                            '0',
-                            '1'
+                            "${smoke3}",
+                            '0px',
+                            '4px'
                         ]
                     ]
                 }
             },
-            "SlideSymbol1": {
+            "SlideSymbol2": {
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
@@ -914,14 +915,14 @@
                             '234px'
                         ],
                         [
-                            "eid601",
-                            "left",
+                            "eid649",
+                            "opacity",
                             1500,
-                            6500,
+                            1500,
                             "linear",
-                            "${hudson-S}",
-                            '900px',
-                            '899px'
+                            "${hudson-photogallerynew2}",
+                            '0.000000',
+                            '1'
                         ],
                         [
                             "eid467",
@@ -932,6 +933,16 @@
                             "${hudson-01}",
                             '1',
                             '0'
+                        ],
+                        [
+                            "eid471",
+                            "left",
+                            10000,
+                            0,
+                            "easeOutCubic",
+                            "${hudson-02}",
+                            '50px',
+                            '50px'
                         ],
                         [
                             "eid602",
@@ -954,16 +965,6 @@
                             'block'
                         ],
                         [
-                            "eid471",
-                            "left",
-                            10000,
-                            0,
-                            "easeOutCubic",
-                            "${hudson-02}",
-                            '50px',
-                            '50px'
-                        ],
-                        [
                             "eid468",
                             "opacity",
                             4500,
@@ -974,14 +975,194 @@
                             '0'
                         ],
                         [
-                            "eid649",
-                            "opacity",
+                            "eid601",
+                            "left",
                             1500,
-                            1500,
+                            6500,
                             "linear",
-                            "${hudson-photogallerynew2}",
+                            "${hudson-S}",
+                            '900px',
+                            '899px'
+                        ]
+                    ]
+                }
+            },
+            "SlideSymbol0": {
+                version: "6.0.0",
+                minimumCompatibleVersion: "5.0.0",
+                build: "6.0.0.400",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0', '2000px', '400px', 'auto', 'auto'],
+                            id: 'bg-long',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/bg-long.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['0px', '-199px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Art-big',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/Art-big.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['338px', '301px', '392px', '44px', 'auto', 'auto'],
+                            id: 'selections',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/selections.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['447px', '30px', '310px', '77px', 'auto', 'auto'],
+                            id: 'peoples',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/peoples.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['1px', '1px', '1000px', '400px', 'auto', 'auto'],
+                            id: 'Rectangle',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(192,192,192,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '400px'],
+                            overflow: 'hidden'
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 9500,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid769",
+                            "height",
+                            2500,
+                            500,
+                            "linear",
+                            "${Art-big}",
+                            '800px',
+                            '400px'
+                        ],
+                        [
+                            "eid778",
+                            "top",
+                            3000,
+                            0,
+                            "linear",
+                            "${selections}",
+                            '301px',
+                            '301px'
+                        ],
+                        [
+                            "eid776",
+                            "opacity",
+                            0,
+                            0,
+                            "linear",
+                            "${selections}",
+                            '0.000000',
+                            '0.000000'
+                        ],
+                        [
+                            "eid777",
+                            "opacity",
+                            3000,
+                            0,
+                            "linear",
+                            "${selections}",
                             '0.000000',
                             '1'
+                        ],
+                        [
+                            "eid768",
+                            "opacity",
+                            250,
+                            1750,
+                            "linear",
+                            "${Art-big}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid770",
+                            "top",
+                            2500,
+                            500,
+                            "linear",
+                            "${Art-big}",
+                            '-199px',
+                            '0px'
+                        ],
+                        [
+                            "eid764",
+                            "left",
+                            0,
+                            9500,
+                            "linear",
+                            "${bg-long}",
+                            '0px',
+                            '-1000px'
+                        ],
+                        [
+                            "eid771",
+                            "left",
+                            2500,
+                            500,
+                            "linear",
+                            "${Art-big}",
+                            '-500px',
+                            '0px'
+                        ],
+                        [
+                            "eid782",
+                            "opacity",
+                            0,
+                            0,
+                            "linear",
+                            "${peoples}",
+                            '0.000000',
+                            '0.000000'
+                        ],
+                        [
+                            "eid783",
+                            "opacity",
+                            3000,
+                            0,
+                            "linear",
+                            "${peoples}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid762",
+                            "opacity",
+                            0,
+                            0,
+                            "easeOutCubic",
+                            "${bg-long}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid772",
+                            "width",
+                            2500,
+                            500,
+                            "linear",
+                            "${Art-big}",
+                            '2000px',
+                            '1000px'
                         ]
                     ]
                 }

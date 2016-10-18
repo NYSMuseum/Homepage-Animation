@@ -456,8 +456,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-   })("SlideSymbol3");
-   //Edge symbol end:'SlideSymbol3'
+   })("SlideSymbol4");
+   //Edge symbol end:'SlideSymbol4'
 
    //=========================================================
    
@@ -481,8 +481,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      })("SlideSymbol2");
-   //Edge symbol end:'SlideSymbol2'
+      })("SlideSymbol3");
+   //Edge symbol end:'SlideSymbol3'
 
    //=========================================================
    
@@ -499,8 +499,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-         })("SlideSymbol0");
-   //Edge symbol end:'SlideSymbol0'
+         })("SlideSymbol1");
+   //Edge symbol end:'SlideSymbol1'
 
    //=========================================================
    
@@ -514,7 +514,22 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
             //Edge binding end
 
-            })("SlideSymbol1");
-   //Edge symbol end:'SlideSymbol1'
+            })("SlideSymbol2");
+   //Edge symbol end:'SlideSymbol2'
+
+   //=========================================================
+   
+   //Edge symbol: 'SlideSymbol2_1'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle}", "click", function(sym, e) {
+         // insert code for mouse click here
+         window.open("exhibitions/people’s-art-selections-empire-state-plaza-art-collection", "_self");
+
+      });
+         //Edge binding end
+
+         })("SlideSymbol0");
+   //Edge symbol end:'SlideSymbol0'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-351832807");

@@ -5,11 +5,11 @@
 	"expanded:images/hudson-right2.jpg":"nil",
 	"PosterImagePath":"images/Poster.png",
 	"Preloader-Default Timeline_playhead_ms":"0",
-	"expanded:images/nysmcredit.png":"nil",
-	"CompZoomFactor":"100",
+	"expanded:images/hudson-ruins2.png":"nil",
+	"expanded:images/survivors_word.png":"nil",
 	"symbol_ImageSymbol":{
+		"dummyStageParentHeight":"200px",
 		"defaultStageParentHeight":"200px",
-		"dummyStageParentWidth":"800px",
 		"codeTreeElementPopupFilter":"",
 		"element_${imageTitle}":{
 			"timelineColor2":"0xd35d6e",
@@ -24,116 +24,76 @@
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"timelineColor":"0xdb619d"},
-		"dummyStageParentHeight":"200px"},
+		"dummyStageParentWidth":"800px"},
 	"expanded:images/cloud.png":"nil",
 	"expanded:images/torn.png":"nil",
 	"expanded:images/main5.jpg":"nil",
 	"expanded:images/1973_completed-tower.jpg":"nil",
 	"SlideSymbol01-Default Timeline_playhead_ms":"0",
-	"symbol_Red":{
-		"element_${Text}":{
+	"symbol_SlideSymbol2":{
+		"element_${building}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa"},
+		"dummyStageParentWidth":"1000px",
+		"element_${hudson-S}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"true",
+			"timelineColor":"0x008dc8"},
+		"dummyStageParentHeight":"400px",
+		"element_${hudson-photogallerynew2}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a096"},
+		"element_${hudson-TITLESQ}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"},
+		"element_${Rectangle2Copy3}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${hudson-02}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${Text2}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
+		"defaultStageParentHeight":"400px",
+		"element_${hudson-03}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"},
+		"element_${hudson-01}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"},
+		"element_${hudson-left}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
+		"element_${hudson-graysq}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
 			"timelineColor":"0x91c767"},
-		"element_${RoundRect}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82"}},
-	"expanded:images/hudson-valley2.png":"nil",
+		"defaultStageParentWidth":"1000px"},
+	"expanded:images/hudson-hudsonvalley.png":"nil",
 	"expanded:images/torn-edge.png":"nil",
 	"PosterCapturePos":"1",
-	"ModelData":"{\
-\"stage\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"MainContainerSymbol\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"PageButtonSymbol\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"PageButtonContainerSymbol\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol3\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol34\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol2\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"SlideSymbol0\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"Preloader\": {\
-   \"timelines\": {\
-\
-   }},\
-\"Down-level\": {\
-   \"timelines\": {\
-\
-   }},\
-\"SlideSymbol1\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }}\
-}",
-	"expanded:images/main4.jpg":"nil",
-	"PageBtn-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-top.png":"nil",
-	"expanded:images/title2.png":"nil",
-	"expanded:images/hudson-right.jpg":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
-	"expanded:images/hudson-left.jpg":"nil",
-	"MainContainerSymbol-Default Timeline_playhead_ms":"0",
-	"expanded:images/building.jpg":"nil",
-	"PubStaticHTMLContent":"true",
-	"usedBOM":"false",
-	"expanded:images/hudson-photogaller2.png":"nil",
-	"symbol_SlideSymbol2xxxx":{
-		"dummyStageParentWidth":"800px",
-		"element_${Ellipse}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"timelineColor":"0x00a9fa",
-			"animationEnabled":"false",
-			"usingMotionPaths":"true"},
-		"dummyStageParentHeight":"200px",
-		"defaultStageParentWidth":"800px",
-		"defaultStageParentHeight":"200px",
-		"element_${page2}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"}},
-	"expanded:images/hudson-02.jpg":"nil",
-	"pref__general__FilterNonAnimatedElements":"false",
-	"p50_slideshow-Default Timeline_mark_ms":"-1",
-	"symbol_Preloader":{
-		"defaultStageParentWidth":"1000px",
-		"defaultStageParentHeight":"400px",
-		"dummyStageParentWidth":"1000px",
-		"dummyStageParentHeight":"400px"},
-	"symbol_SlideSymbol0":{
+	"symbol_SlideSymbol1":{
 		"element_${survivors2}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
@@ -162,12 +122,11 @@
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"false",
 			"timelineColor":"0x008dc8"},
-		"element_${hudson-ruins22}":{
+		"element_${Elevator-plaque-H-20029136}":{
 			"timelineColor2":"0x168c84",
-			"invisible":"false",
-			"timelineColor":"0x00a096",
+			"timelineColor3":"0x2a605c",
 			"animationEnabled":"false",
-			"timelineColor3":"0x2a605c"},
+			"timelineColor":"0x00a096"},
 		"element_${hudson-ruins2}":{
 			"timelineColor2":"0x5a558a",
 			"invisible":"true",
@@ -208,23 +167,29 @@
 			"animationEnabled":"false",
 			"timelineColor3":"0x5b6c4d"},
 		"defaultStageParentHeight":"400px",
-		"dummyStageParentWidth":"1000px",
+		"element_${smoke}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
 		"element_${Rectangle}":{
 			"timelineColor2":"0x107faa",
 			"invisible":"false",
 			"timelineColor":"0x008dc8",
 			"animationEnabled":"false",
 			"timelineColor3":"0x295a6d"},
-		"element_${Elevator-plaque-H-20029136}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
+		"element_${hudson-photogaller2}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
-		"element_${smoke3Copy}":{
-			"timelineColor2":"0xba5b89",
-			"animationEnabled":"true",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d"},
+			"invisible":"true"},
+		"element_${hudson-photogallerynew2}":{
+			"timelineColor2":"0xd8b467",
+			"invisible":"false",
+			"timelineColor":"0xffd46d",
+			"animationEnabled":"false",
+			"timelineColor3":"0x81714f"},
 		"element_${text}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
@@ -242,11 +207,7 @@
 			"timelineColor":"0x50bd82",
 			"animationEnabled":"false",
 			"invisible":"false"},
-		"element_${smoke3}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"true",
-			"timelineColor":"0xfb657a"},
+		"defaultStageParentWidth":"1000px",
 		"element_${smoke2}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
@@ -259,68 +220,63 @@
 			"timelineColor":"0xdb619d",
 			"animationEnabled":"false",
 			"invisible":"false"},
-		"element_${Sign-from-Stairwell-B-H-20063233}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${smoke}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"element_${surivors-info}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"true",
-			"timelineColor":"0xffd46d"},
-		"element_${Motorola-StarTAC-cell-phone-H-2011201}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
 		"element_${hudson-02}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"timelineColor":"0x00bda4",
 			"animationEnabled":"false",
 			"invisible":"false"},
-		"element_${Sign-from-Stairwell-B-H-2006323}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
+		"element_${Rectangle2Copy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
 			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
+			"invisible":"true"},
+		"element_${surivors-info}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
 		"element_${hudson-03}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096",
 			"animationEnabled":"false",
 			"invisible":"false"},
-		"element_${hudson-graysq}":{
-			"timelineColor2":"0x326a96",
-			"invisible":"false",
-			"timelineColor":"0x2f73ad",
+		"dummyStageParentWidth":"1000px",
+		"element_${smoke3Copy}":{
+			"timelineColor2":"0xba5b89",
+			"animationEnabled":"true",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
+		"element_${Sign-from-Stairwell-B-H-20063232}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
-			"timelineColor3":"0x385063"},
+			"timelineColor":"0x50bd82"},
 		"element_${torn}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"timelineColor":"0xceaef4",
 			"animationEnabled":"false",
 			"invisible":"true"},
-		"element_${hudson-hudsonvalley}":{
-			"timelineColor2":"0x1095d2",
-			"invisible":"true",
-			"timelineColor":"0x00a9fa",
-			"animationEnabled":"false",
-			"timelineColor3":"0x29647e"},
 		"element_${hudson-valley}":{
 			"timelineColor2":"0x326a96",
 			"invisible":"false",
 			"timelineColor":"0x2f73ad",
 			"animationEnabled":"false",
 			"timelineColor3":"0x385063"},
+		"element_${hudson-hudsonvalley}":{
+			"timelineColor2":"0x1095d2",
+			"invisible":"true",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"false",
+			"timelineColor3":"0x29647e"},
+		"element_${smoke3}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
 		"element_${hudson-valley2}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
@@ -356,11 +312,12 @@
 			"timelineColor":"0x00bda4",
 			"animationEnabled":"false",
 			"invisible":"true"},
-		"element_${Sign-from-Stairwell-B-H-20063232}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
+		"element_${Sign-from-Stairwell-B-H-20063233}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
 			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
+			"invisible":"true"},
 		"element_${lion}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
@@ -378,36 +335,130 @@
 			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"true",
 			"timelineColor":"0x91c767"},
-		"element_${Rectangle2Copy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a",
+		"element_${Sign-from-Stairwell-B-H-2006323}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"false",
-			"invisible":"true"},
+			"timelineColor":"0x91c767"},
 		"element_${Rectangle2Copy5}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"timelineColor":"0x50bd82",
 			"animationEnabled":"false",
 			"invisible":"true"},
-		"defaultStageParentWidth":"1000px",
-		"element_${hudson-photogallerynew2}":{
-			"timelineColor2":"0xd8b467",
+		"element_${Motorola-StarTAC-cell-phone-H-2011201}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
+		"element_${hudson-ruins22}":{
+			"timelineColor2":"0x168c84",
 			"invisible":"false",
-			"timelineColor":"0xffd46d",
+			"timelineColor":"0x00a096",
 			"animationEnabled":"false",
-			"timelineColor3":"0x81714f"},
-		"element_${hudson-photogaller2}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a",
+			"timelineColor3":"0x2a605c"},
+		"element_${hudson-graysq}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad",
 			"animationEnabled":"false",
-			"invisible":"true"},
+			"timelineColor3":"0x385063"},
 		"element_${hudson-right}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
 			"animationEnabled":"false",
 			"timelineColor":"0xffd46d"}},
+	"expanded:images/worldtradecenter.png":"nil",
+	"expanded:images/main4.jpg":"nil",
+	"PageBtn-Default Timeline_playhead_ms":"0",
+	"expanded:images/selections.jpg":"nil",
+	"expanded:images/hudson-top.png":"nil",
+	"expanded:images/title2.png":"nil",
+	"expanded:images/Sign-from-Stairwell-B-H-2006.32.3.png":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/hudson-left.jpg":"nil",
+	"MainContainerSymbol-Default Timeline_playhead_ms":"0",
+	"expanded:images/building.jpg":"nil",
+	"PubStaticHTMLContent":"true",
+	"usedBOM":"false",
+	"expanded:images/hudson-photogaller2.png":"nil",
+	"symbol_SlideSymbol2xxxx":{
+		"dummyStageParentWidth":"800px",
+		"element_${Ellipse}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"false",
+			"usingMotionPaths":"true"},
+		"dummyStageParentHeight":"200px",
+		"defaultStageParentWidth":"800px",
+		"element_${page2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"defaultStageParentHeight":"200px"},
+	"expanded:images/hudson-02.jpg":"nil",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"p50_slideshow-Default Timeline_mark_ms":"-1",
+	"symbol_Preloader":{
+		"defaultStageParentWidth":"1000px",
+		"defaultStageParentHeight":"400px",
+		"dummyStageParentWidth":"1000px",
+		"dummyStageParentHeight":"400px"},
+	"symbol_SlideSymbol0":{
+		"dummyStageParentWidth":"1000px",
+		"element_${torn-paper}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"dummyStageParentHeight":"400px",
+		"element_${bg-long}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
+		"element_${peoples}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"},
+		"element_${lion}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${background}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
+		"defaultStageParentHeight":"400px",
+		"element_${selections}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${Art-big}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${torn}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"defaultStageParentWidth":"1000px",
+		"element_${text}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"}},
 	"p50_slideshow-Default Timeline_playhead_ms":"0",
 	"StageZoomFactor":"100",
 	"pixelsPerMs":"0.11132629837597",
@@ -415,6 +466,7 @@
 	"expanded:images/represent.png":"nil",
 	"expanded:images/text.png":"nil",
 	"expanded:images/play.png":"nil",
+	"expanded:images/whitebox.png":"nil",
 	"PubUseChromeFrameInstaller":"false",
 	"expanded:images/imagingamericanwest.jpg":"nil",
 	"expanded:images/imagingamericanwest.png":"nil",
@@ -426,8 +478,8 @@
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa",
 			"animationEnabled":"false",
-			"invisible":"false",
-			"timelineColor2":"0x1095d2"},
+			"timelineColor2":"0x1095d2",
+			"invisible":"false"},
 		"element_${RoundRect}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -504,8 +556,8 @@
 			"timelineColor":"0x008dc8",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false",
-			"invisible":"false",
-			"timelineColor2":"0x107faa"},
+			"timelineColor2":"0x107faa",
+			"invisible":"false"},
 		"element_${imageButton}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
@@ -552,16 +604,17 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
-		"element_${p50_slideshow}":{
+		"element_${imageTitle}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
-		"element_${sliderHolder}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"invisible":"false",
-			"timelineColor":"0xceaef4"},
+		"element_${Group}":{
+			"epOpened":"false",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"false",
+			"timelineColor2":"0x326a96"},
 		"element_${Red}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -572,67 +625,66 @@
 			"timelineColor3":"0x295a6d",
 			"invisible":"false",
 			"timelineColor":"0x008dc8"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
+		"element_${SlideSymbol22}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
 			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
+			"timelineColor":"0xfb657a"},
 		"element_${RectangleCopy}":{
 			"timelineColor2":"0xb099ce",
 			"invisible":"false",
 			"timelineColor":"0xceaef4",
 			"animationEnabled":"false",
 			"timelineColor3":"0x70657c"},
-		"element_${btn}":{
+		"element_${Stage}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
 		"element_${PageButton}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"},
+		"element_${page3}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"element_${PageButtonContainer}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
 		"element_${GroupCopy}":{
 			"epOpened":"true",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false",
-			"invisible":"false",
-			"timelineColor2":"0x5a558a"},
-		"element_${PageButtonContainer}":{
+			"timelineColor2":"0x5a558a",
+			"invisible":"false"},
+		"element_${btn}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"1000px",
+		"element_${Rectangle}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"false",
 			"timelineColor":"0x00bda4"},
-		"element_${page3}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
-		"element_${Stage}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
-		"defaultStageParentWidth":"1000px",
-		"element_${SlideSymbol22}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${Group}":{
-			"epOpened":"false",
-			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad",
-			"animationEnabled":"false",
-			"timelineColor2":"0x326a96"},
-		"element_${imageTitle}":{
+		"element_${sliderHolder}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"invisible":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${p50_slideshow}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"}},
-	"TransitionIdCounter":"743",
+	"TransitionIdCounter":"784",
 	"expanded:images/page0.jpg":"nil",
 	"viewStartY":"0",
 	"expanded:images/page1.jpg":"nil",
@@ -640,7 +692,7 @@
 	"expanded:images/logo.png":"nil",
 	"expanded:images/hudson-photogallerynew.png":"nil",
 	"SlideSymbol2xxxx-Default Timeline_playhead_ms":"0",
-	"PubChromeFrameInstallerPrompt":"none",
+	"expanded:images/emit.png":"nil",
 	"expanded:images/stpauls.jpg":"nil",
 	"expanded:images/title.png":"nil",
 	"symbol_p50_slideshow":{
@@ -689,144 +741,21 @@
 	"expanded:images/represent-b.png":"nil",
 	"symbol_SlideSymbol3":{
 		"element_${Text}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"dummyStageParentWidth":"800px",
-		"element_${title}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
-		"dummyStageParentHeight":"200px",
-		"element_${title2}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"true",
-			"timelineColor":"0x91c767"},
-		"element_${para}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${Rectangle4}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${Rectangle2}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"true",
-			"timelineColor":"0xffd46d"},
-		"element_${page0}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"defaultStageParentHeight":"400px",
-		"element_${heading}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"defaultStageParentWidth":"1000px",
-		"element_${stpauls}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"true",
-			"timelineColor":"0xdb619d"},
-		"element_${EllipseCopy3}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
-		"element_${nysmcredit}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"true",
-			"timelineColor":"0x50bd82"}},
-	"PubDPSName":"indexnysm",
-	"expanded:images/1962_early-cec-rendering.jpg":"nil",
-	"pref__general__codeView":"sectionalView",
-	"expanded:images/Motorola-StarTAC-cell-phone-H-2011.20.1.jpg":"nil",
-	"expanded:images/hudson-ruins.png":"nil",
-	"SlideSymbol0-Default Timeline_playhead_ms":"0",
-	"nextElementColorIndex":"4",
-	"stage-Default Timeline_playhead_ms":"4500",
-	"HTMLFileName":"index.html",
-	"expanded:images/A-State-of-Change.jpg":"nil",
-	"expanded:images/main5.png":"nil",
-	"expanded:images/Elevator-plaque-H-2002.9.136.jpg":"nil",
-	"expanded:images/smoke.jpg":"nil",
-	"symbol_PageButtonContainerSymbol":{
-		"dummyStageParentWidth":"800px",
-		"element_${btn}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"defaultStageParentWidth":"20px",
-		"dummyStageParentHeight":"200px",
-		"defaultStageParentHeight":"20px"},
-	"PubDPSUseCDN":"true",
-	"expanded:images/page3.jpg":"nil",
-	"expanded:images/hudson-valley.png":"nil",
-	"pref__general__TimelineSnapEnabled":"true",
-	"expanded:images/websiteurl.png":"nil",
-	"UseCDN":"false",
-	"symbol_PageButtonSymbol":{
-		"defaultStageParentHeight":"20px",
-		"element_${btn}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"true",
-			"timelineColor":"0xceaef4"},
-		"defaultStageParentWidth":"20px",
-		"dummyStageParentWidth":"800px",
-		"dummyStageParentHeight":"200px"},
-	"expanded:images/hudson-01.jpg":"nil",
-	"viewStartMs":"-44.913017615245",
-	"expanded:images/Sign-from-Stairwell-B-H-2006.32.3.png":"nil",
-	"SlideSymbol3-Default Timeline_playhead_ms":"0",
-	"expanded:images/worldtradecenter.png":"nil",
-	"expanded:images/floor.png":"nil",
-	"PageButtonContainerSymbol-Default Timeline_playhead_ms":"0",
-	"expanded:images/emit.png":"nil",
-	"expanded:images/imaging_sub.png":"nil",
-	"expanded:images/Sign-from-Stairwell-B-H-2006.32.3.jpg":"nil",
-	"expanded:images/survivors_word.png":"nil",
-	"expanded:images/WatermanLR.jpg":"nil",
-	"expanded:images/hudson-03.jpg":"nil",
-	"expanded:images/food-panty.png":"nil",
-	"SlideSymbol3-Default Timeline_mark_ms":"-1",
-	"PageButton-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-S.png":"nil",
-	"expanded:images/hudson-ruins2.png":"nil",
-	"SlideSymbol5-Default Timeline_playhead_ms":"0",
-	"expanded:images/lion.jpg":"nil",
-	"symbol_SlideSymbol2":{
-		"element_${Text}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"animationEnabled":"false",
 			"timelineColor":"0x00a096"},
-		"element_${imagingamericanwest2}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
+		"element_${RoundRect}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${imaging_title}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x00bda4"},
+		"element_${torn-paper}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad",
 			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
+			"timelineColor3":"0x385063"},
 		"dummyStageParentHeight":"200px",
 		"element_${imaging_sub}":{
 			"timelineColor2":"0x5a558a",
@@ -864,22 +793,23 @@
 			"timelineColor3":"0x29647e",
 			"animationEnabled":"false",
 			"timelineColor":"0x00a9fa"},
-		"element_${torn-paper}":{
-			"timelineColor2":"0x326a96",
-			"invisible":"false",
-			"timelineColor":"0x2f73ad",
+		"element_${imaging_title}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
 			"animationEnabled":"false",
-			"timelineColor3":"0x385063"},
-		"element_${RoundRect}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x008dc8"},
+		"dummyStageParentWidth":"800px",
+		"defaultStageParentWidth":"1000px",
+		"element_${page1}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x63599f"},
+		"element_${GroupCopy2}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
+			"timelineColor":"0xeedf79"},
 		"element_${lion}":{
 			"timelineColor2":"0x81aa62",
 			"invisible":"false",
@@ -891,16 +821,6 @@
 			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"false",
 			"timelineColor":"0x91c767"},
-		"element_${page1}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"false",
-			"timelineColor":"0x63599f"},
-		"element_${GroupCopy2}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
 		"defaultStageParentHeight":"400px",
 		"element_${paraCopy}":{
 			"timelineColor2":"0x1095d2",
@@ -912,8 +832,16 @@
 			"timelineColor3":"0x81714f",
 			"animationEnabled":"false",
 			"timelineColor":"0xffd46d"},
-		"defaultStageParentWidth":"1000px",
-		"dummyStageParentWidth":"800px",
+		"element_${Rectangle}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${imagingamericanwest2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
 		"element_${Rectangle5}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -924,11 +852,321 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"}},
-	"expanded:images/hudson-hudsonvalley.png":"nil",
+	"PubDPSName":"indexnysm",
+	"expanded:images/1962_early-cec-rendering.jpg":"nil",
+	"expanded:images/imaging_sub.png":"nil",
+	"expanded:images/Motorola-StarTAC-cell-phone-H-2011.20.1.jpg":"nil",
+	"symbol_PlazaArt_1":{
+		"dummyStageParentWidth":"2500px",
+		"dummyStageParentHeight":"800px",
+		"element_${bg-long}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${whitebox}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"defaultStageParentHeight":"400px",
+		"element_${selections}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${Art-big}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${peoples}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"defaultStageParentWidth":"1000px"},
+	"expanded:images/Art-big.png":"nil",
+	"expanded:images/hudson-ruins.png":"nil",
+	"SlideSymbol3-Default Timeline_playhead_ms":"0",
+	"nextElementColorIndex":"2",
+	"stage-Default Timeline_playhead_ms":"4500",
+	"PlazaArt_1-Default Timeline_mark_ms":"-1",
+	"HTMLFileName":"index.html",
+	"expanded:images/A-State-of-Change.jpg":"nil",
+	"this_is_my_symbol-Default Timeline_playhead_ms":"8000",
+	"expanded:images/main5.png":"nil",
+	"expanded:images/Elevator-plaque-H-2002.9.136.jpg":"nil",
+	"expanded:images/smoke.jpg":"nil",
+	"symbol_PageButtonContainerSymbol":{
+		"dummyStageParentWidth":"800px",
+		"element_${btn}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"defaultStageParentWidth":"20px",
+		"defaultStageParentHeight":"20px",
+		"dummyStageParentHeight":"200px"},
+	"PubDPSUseCDN":"true",
+	"expanded:images/page3.jpg":"nil",
+	"expanded:images/hudson-valley.png":"nil",
+	"pref__general__TimelineSnapEnabled":"true",
+	"expanded:images/websiteurl.png":"nil",
+	"UseCDN":"false",
+	"symbol_SlideSymbol4":{
+		"element_${Text}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"dummyStageParentWidth":"800px",
+		"element_${title}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentHeight":"200px",
+		"element_${title2}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${para}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"defaultStageParentHeight":"800px",
+		"element_${EllipseCopy3}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${page0}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${Rectangle4}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"element_${heading}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"defaultStageParentWidth":"2500px",
+		"element_${Rectangle}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"element_${stpauls}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"},
+		"element_${Rectangle2}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${nysmcredit}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"}},
+	"PlazaArt-Default Timeline_playhead_ms":"0",
+	"symbol_SlideSymbol3_1":{
+		"dummyStageParentWidth":"2500px",
+		"dummyStageParentHeight":"800px",
+		"element_${title2}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${Rectangle4}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"timelineColor":"0xffd46d"},
+		"defaultStageParentHeight":"800px",
+		"defaultStageParentWidth":"2500px",
+		"element_${stpauls}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"element_${Rectangle2}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"true",
+			"timelineColor":"0x00bda4"},
+		"element_${nysmcredit}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"}},
+	"PlazaArt_1-Default Timeline_playhead_ms":"5022",
+	"PlazaArt-Default Timeline_mark_ms":"-1",
+	"expanded:images/background.jpg":"nil",
+	"expanded:images/peoples.jpg":"nil",
+	"expanded:images/bg-long.jpg":"nil",
+	"symbol_PageButtonSymbol":{
+		"dummyStageParentWidth":"800px",
+		"element_${btn}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"true",
+			"timelineColor":"0xceaef4"},
+		"defaultStageParentWidth":"20px",
+		"dummyStageParentHeight":"200px",
+		"defaultStageParentHeight":"20px"},
+	"SlideSymbol2-Default Timeline_playhead_ms":"0",
+	"colorSwatches":"rgba(168,173,194,1.00)|rgba(52,82,102,1.00)",
+	"SlideSymbol5-Default Timeline_playhead_ms":"0",
+	"SlideSymbol0-Default Timeline_mark_ms":"-1",
+	"PubChromeFrameInstallerPrompt":"none",
+	"expanded:images/floor.png":"nil",
+	"PageButtonContainerSymbol-Default Timeline_playhead_ms":"0",
+	"expanded:images/hudson-01.jpg":"nil",
+	"pref__general__codeView":"sectionalView",
+	"symbol_MainContainerSymbol":{
+		"dummyStageParentWidth":"800px",
+		"element_${btn3}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${btn1}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"defaultStageParentHeight":"200px",
+		"element_${btn2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"dummyStageParentHeight":"200px",
+		"defaultStageParentWidth":"800px",
+		"element_${btn0}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"}},
+	"pref__general__GenerateSmoothTransitions":"true",
+	"expanded:images/WatermanLR.jpg":"nil",
+	"expanded:images/hudson-03.jpg":"nil",
+	"SlideSymbol0-Default Timeline_playhead_ms":"0",
+	"expanded:images/page2.jpg":"nil",
+	"PageButton-Default Timeline_playhead_ms":"0",
+	"expanded:images/hudson-S.png":"nil",
+	"expanded:images/hudson-graysq.png":"nil",
+	"SlideSymbol4-Default Timeline_mark_ms":"4500",
+	"expanded:images/nysmcredit.png":"nil",
+	"CompZoomFactor":"100",
+	"SlideSymbol1-Default Timeline_mark_ms":"-1",
 	"expanded:images/survivors.png":"nil",
 	"expanded:images/surivors-info.png":"nil",
 	"PageButtonSymbol-Default Timeline_playhead_ms":"0",
 	"expanded:images/hudson-photogaller.png":"nil",
+	"expanded:images/hudson-photogallerynew2.png":"nil",
+	"expanded:images/can_text.png":"nil",
+	"expanded:images/sky.png":"nil",
+	"symbol_Red":{
+		"element_${Text}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"element_${RoundRect}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82"}},
+	"SlideSymbol3-Default Timeline_mark_ms":"-1",
+	"expanded:images/hudson-valley2.png":"nil",
+	"expanded:images/Poster.png":"nil",
+	"SlideSymbol4-Default Timeline_playhead_ms":"0",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"MainContainerSymbol\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"PageButtonSymbol\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"PageButtonContainerSymbol\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol4\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol34\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol3\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol1\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"SlideSymbol2\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }},\
+\"SlideSymbol0\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }}\
+}",
+	"expanded:images/bg-6.jpg":"nil",
+	"expanded:images/hudson-right.jpg":"nil",
+	"PageButtonContainer-Default Timeline_playhead_ms":"0",
+	"SlideSymbol2-Default Timeline_mark_ms":"-1",
+	"pref__general__AutoKeyframeProperties":"true",
+	"SlideSymbol34-Default Timeline_playhead_ms":"0",
+	"SlideSymbol1-Default Timeline_playhead_ms":"0",
 	"symbol_SlideSymbol34":{
 		"element_${Text}":{
 			"timelineColor2":"0xd35d6e",
@@ -992,64 +1230,18 @@
 			"animationEnabled":"false",
 			"timelineTreeOpened":"false"},
 		"defaultStageParentWidth":"1000px",
-		"element_${paraCopy}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
 		"element_${Rectangle2}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"invisible":"true",
-			"timelineColor":"0xdb619d"}},
-	"expanded:images/can_text.png":"nil",
-	"SlideSymbol1-Default Timeline_playhead_ms":"0",
-	"pref__general__AutoKeyframeProperties":"true",
-	"SlideSymbol2-Default Timeline_mark_ms":"-1",
-	"SlideSymbol4-Default Timeline_mark_ms":"4500",
-	"expanded:images/Poster.png":"nil",
-	"expanded:images/bg-6.jpg":"nil",
-	"SlideSymbol4-Default Timeline_playhead_ms":"2000",
-	"expanded:images/sky.png":"nil",
-	"expanded:images/hudson-photogallerynew2.png":"nil",
-	"SlideSymbol1-Default Timeline_mark_ms":"-1",
-	"PageButtonContainer-Default Timeline_playhead_ms":"0",
-	"expanded:images/hudson-graysq.png":"nil",
-	"expanded:images/page2.jpg":"nil",
-	"SlideSymbol34-Default Timeline_playhead_ms":"0",
-	"pref__general__GenerateSmoothTransitions":"true",
-	"symbol_MainContainerSymbol":{
-		"dummyStageParentWidth":"800px",
-		"element_${btn3}":{
+			"timelineColor":"0xdb619d"},
+		"element_${paraCopy}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"},
-		"element_${btn1}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"defaultStageParentHeight":"200px",
-		"element_${btn2}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
-		"dummyStageParentHeight":"200px",
-		"defaultStageParentWidth":"800px",
-		"element_${btn0}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"}},
+			"timelineColor":"0x008dc8"}},
 	"MainContainer-Default Timeline_playhead_ms":"0",
-	"SlideSymbol0-Default Timeline_mark_ms":"613.99324413728",
+	"expanded:images/lion.jpg":"nil",
 	"ImageSymbol-Default Timeline_playhead_ms":"0",
-	"colorSwatches":"rgba(168,173,194,1.00)|rgba(52,82,102,1.00)",
-	"SlideSymbol2-Default Timeline_playhead_ms":"0"}
+	"expanded:images/food-panty.png":"nil",
+	"expanded:images/Sign-from-Stairwell-B-H-2006.32.3.jpg":"nil"}
