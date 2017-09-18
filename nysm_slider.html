@@ -22,31 +22,36 @@
   }
 </style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="nysm_slider.js"></script>
+<script src="nysm_slider.js?1505755856253"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	images = images||{};
+	var comp=AdobeAn.getComposition("5222455380EF4C3C8D1B33262CFD3544");
+	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", handleFileLoad);
-	loader.addEventListener("complete", handleComplete);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
 	loader.loadManifest(lib.properties.manifest);
 }
-function handleFileLoad(evt) {	
-	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
 }
-function handleComplete(evt) {
+function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
 	var queue = evt.target;
 	var ssMetadata = lib.ssMetadata;
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 	exportRoot = new lib.nysm_slider();
-	stage = new createjs.Stage(canvas);
+	stage = new lib.Stage(canvas);
 	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
@@ -87,6 +92,7 @@ function handleComplete(evt) {
 		}
 	}
 	makeResponsive(true,'width',false,2);	
+	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
 </script>
