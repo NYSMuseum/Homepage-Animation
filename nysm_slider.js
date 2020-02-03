@@ -805,21 +805,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 				this.symbol3.addEventListener("click", fl_ClickToGoToWebPage3);
 				this.symbol4.addEventListener("click", fl_ClickToGoToWebPage4);
 				
-				function fl_ClickToGoToWebPage3() {
+				function fl_ClickToGoToWebPage1() {
 					window.open("exhibitions/enterprising-waters-erie-canal", "_self");
 				}
 				
 				
-		function fl_ClickToGoToWebPage1() {
-					window.open("exhibitions/arthur-anderson-collection", "_self");
-				}
-				
-			
-				
-				function fl_ClickToGoToWebPage4() {
+				function fl_ClickToGoToWebPage3() {
 					window.open("exhibitions/ice-ages", "_self");
 				}
-				
 				
 				
 					function fl_ClickToGoToWebPage2() {
