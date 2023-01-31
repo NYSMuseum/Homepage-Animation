@@ -926,7 +926,7 @@ if (reversed == null) { reversed = false; }
 				nextSlide.alpha = 0;
 				nextSlide.visible = true;
 				createjs.Tween.get(nextSlide).to({alpha: 1}, 750);
-				nextSlide.gotoAndPlay(0);
+				nextSlide.gotoAndPlay(1);
 				curSlide.visible = false;
 			
 		}
@@ -954,7 +954,7 @@ if (reversed == null) { reversed = false; }
 		
 				
 				function fl_ClickToGoToWebPage1() {
-					window.open("reopen", "_self");
+					window.open("exhibitions/captured-recent-photography-acquisitions", "_self");
 				}
 				
 				
@@ -1016,20 +1016,20 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"/sites/all/themes/nysm/homepageanimation/images/Asset131x.png?1668101797715", id:"Asset131x"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/Asset201x.png?1668101797715", id:"Asset201x"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/bluefacade.jpg?1668101797715", id:"bluefacade"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/BorealBog_Mural_SAMPLEkg.jpg?1668101797715", id:"BorealBog_Mural_SAMPLEkg"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/capturedlobbylcd.png?1668101797715", id:"capturedlobbylcd"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/circle.png?1668101797715", id:"circle"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/FORTOframesize.jpg?1668101797715", id:"FORTOframesize"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/fortorangealbanymap.jpg?1668101797715", id:"fortorangealbanymap"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/fortorange.jpg?1668101797715", id:"fortorange"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/iceagestitle.png?1668101797715", id:"iceagestitle"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/title01.png?1668101797715", id:"title01"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/title02.png?1668101797715", id:"title02"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/underline.png?1668101797715", id:"underline"},
-		{src:"/sites/all/themes/nysm/homepageanimation/images/wereopentextpngcopy.png?1668101797715", id:"wereopentextpngcopy"}
+		{src:"/sites/all/themes/nysm/homepageanimation/images/Asset131x.png", id:"Asset131x"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/Asset201x.png", id:"Asset201x"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/bluefacade.jpg", id:"bluefacade"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/BorealBog_Mural_SAMPLEkg.jpg", id:"BorealBog_Mural_SAMPLEkg"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/capturedlobbylcd.png", id:"capturedlobbylcd"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/circle.png", id:"circle"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/FORTOframesize.jpg", id:"FORTOframesize"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/fortorangealbanymap.jpg", id:"fortorangealbanymap"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/fortorange.jpg", id:"fortorange"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/iceagestitle.png", id:"iceagestitle"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/title01.png", id:"title01"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/title02.png", id:"title02"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/underline.png", id:"underline"},
+		{src:"/sites/all/themes/nysm/homepageanimation/images/wereopentextpngcopy.png", id:"wereopentextpngcopy"}
 	],
 	preloads: []
 };
